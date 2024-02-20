@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+}
+
+.sigilSlotsContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-right: 2rem;
+}
+
+
+.sigilListContainer {
+    flex-direction: column;
+    flex: 8;
+    overflow: scroll;
+    max-height: 100vh;
+}
+
+.sigilSlot {
+    height: 72px;
+    display: flex;
+}
+
+.sigilSlotActive {
+    background: rgba(111, 233, 255, 0.548);
+    display: flex;
+    align-items: center;
+}
+
+.sigilSlotText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+}
