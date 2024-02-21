@@ -3,8 +3,6 @@ import styles from "./TraitList.module.css";
 
 const TraitList = ({ traits }) => {
   const renderedTraits = Object.entries(traits).map(([key, value]) => {
-    console.log(key);
-    console.log(value);
     return (
       <Trait
         name={key}

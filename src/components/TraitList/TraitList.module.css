@@ -2,7 +2,7 @@
     flex: 8;
 }
 
-.container ul {
+.container > ul {
     margin: 0;
     padding: 0;
 }
