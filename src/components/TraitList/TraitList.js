@@ -5,6 +5,7 @@ const TraitList = ({ traits }) => {
   const renderedTraits = Object.entries(traits).map(([key, value]) => {
     return (
       <Trait
+        key={key}
         name={key}
         effect={value.effect}
         level={value.level}
