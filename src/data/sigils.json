@@ -37,27 +37,37 @@
  {
    "Name": "Attack Down Resistance I",
    "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
+   "Sigil Effect": "Recover faster from ATK↓",
+   "Base Level": 1,
+   "Max Level": 1
  },
  {
    "Name": "Attack Down Resistance II",
    "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
+   "Sigil Effect": "Recover faster from ATK↓",
+   "Base Level": 1,
+   "Max Level": 3
  },
  {
    "Name": "Attack Down Resistance III",
    "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
+   "Sigil Effect": "Recover faster from ATK↓",
+   "Base Level": 4,
+   "Max Level": 7
  },
  {
    "Name": "Attack Down Resistance IV",
    "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
+   "Sigil Effect": "Recover faster from ATK↓",
+   "Base Level": 7,
+   "Max Level": 12
  },
  {
    "Name": "Attack Down Resistance V",
    "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
+   "Sigil Effect": "Recover faster from ATK↓",
+   "Base Level": 12,
+   "Max Level": 15
  },
  {
    "Name": "Attack Power I",

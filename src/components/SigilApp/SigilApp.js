@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import Sigil from "../Sigil/Sigil";
+import TraitList from "../TraitList/TraitList";
 import sigilData from "../../data/sigils.json";
 import traitData from "../../data/traits.json";
 import styles from "./SigilApp.module.css";
@@ -98,6 +99,7 @@ const Slot = ({ index, sigil, onRemoveSigil, onDropSigil }) => {
   );
 };
 
+
 const SigilApp = () => {
   const [sigils, setSigils] = useState(new Array(12).fill(null));
   const [traits, setTraits] = useState([]);
@@ -107,10 +109,13 @@ const SigilApp = () => {
     newSigils[slotIndex] = sigil;
     setSigils(newSigils);
     const newTraits = {...traits};
-    // If no trait found, add trait and initial level
+    const trait = traitData.find((trait) => trait.Name === sigil.trait);
+    // If no trait found, add trait and initial properties
     if (!Object.hasOwn(newTraits, sigil.trait)) {
       newTraits[sigil.trait] = {
-        level: +sigil.level
+        level: +sigil.level,
+        description: trait["Description"],
+        maxLevel: trait["Max Level"]
       } 
       // If a trait is found, add the sigil's current level to the existing level
     } else {
@@ -118,13 +123,13 @@ const SigilApp = () => {
     }
     // Set trait effect from traitData mapping
     const level = newTraits[sigil.trait].level;
-    const trait = traitData.find((trait) => trait.Name === sigil.trait);
     if (level >= trait.Levels.length) {
       newTraits[sigil.trait].effect = trait.Levels[trait.Levels.length - 1].Effect;
 
     } else {
       newTraits[sigil.trait].effect = trait.Levels[level - 1].Effect;
     }
+
     setTraits(newTraits);
   };
 
@@ -173,6 +178,7 @@ const SigilApp = () => {
           ))}
         </div>
       </DndProvider>
+      <TraitList traits={traits}></TraitList>
     </div>
   );
 };
