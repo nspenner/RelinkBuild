@@ -66,7 +66,10 @@ const SigilApp = () => {
     setTraits(newTraits);
   };
 
-  const handleSigilClick = () => {};
+  const handleSigilClick = (sigil) => {
+    const index = sigils.findIndex(value => value === null);
+    handleDropSigil(index, sigil);
+  };
 
   const handleSigilLevelAdjust = (slotIndex, value) => {
     const newSigils = [...sigils];
@@ -118,7 +121,7 @@ const SigilApp = () => {
             <SigilOption
               key={index}
               sigil={extractSigilData(sigil)}
-              onClick={handleSigilClick}
+              onSigilClick={handleSigilClick}
             />
           ))}
         </div>

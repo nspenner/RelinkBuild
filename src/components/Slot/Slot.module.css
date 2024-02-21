@@ -1,18 +1,38 @@
 .sigilSlot {
-    height: 80px;
-    display: flex;
+  height: 80px;
+  display: flex;
 }
 
 .sigilSlotActive {
-    background: rgba(111, 233, 255, 0.548);
-    display: flex;
-    align-items: center;
+  background: rgba(111, 233, 255, 0.548);
+  display: flex;
+  align-items: center;
 }
 
 .sigilSlotText {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 12px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: auto 1fr;
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.sigilSlotCloseButton {
+    width: min-content;
+    font-size: .75rem;
+    height: 28px;
+}
+
+.sigilSlotName {
+    align-self: flex-end;
+}
+
+.sigilSlotTrait {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.sigilSlotButtons {
+    justify-self: flex-end;
 }

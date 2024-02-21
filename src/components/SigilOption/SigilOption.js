@@ -1,7 +1,10 @@
 import { useDrag } from "react-dnd";
 import Sigil from "../Sigil/Sigil";
 
-const SigilOption = ({ sigil }) => {
+const SigilOption = ({ sigil, index, onSigilClick }) => {
+  const handleSigilClick = () => {
+    onSigilClick( sigil);
+  };
   const [{ isDragging }, drag] = useDrag({
     type: "sigil",
     item: { sigil },
@@ -22,6 +25,7 @@ const SigilOption = ({ sigil }) => {
         opacity: isDragging ? 0.5 : 1,
         cursor: "move",
       }}
+      onSigilClick={handleSigilClick}
     ></Sigil>
   );
 };

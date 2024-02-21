@@ -37,18 +37,6 @@ const Slot = ({
       {sigil && (
         <>
           <div
-            className="btn btn-secondary btn-sm"
-            style={{
-              position: "absolute",
-              top: "5px",
-              right: "5px",
-              cursor: "pointer",
-            }}
-            onClick={() => onRemoveSigil(index)}
-          >
-            X
-          </div>
-          <div
             className={styles.sigilSlotActive}
             style={{
               width: "100%",
@@ -56,9 +44,13 @@ const Slot = ({
             }}
           >
             <div className={styles.sigilSlotText}>
-              <div>{sigil.name}</div>
-              <div>
-                <div>T. Lvl {sigil.level}</div>
+              <div
+                className={`btn btn-secondary btn-sm ${styles.sigilSlotCloseButton}`}
+                onClick={() => onRemoveSigil(index)}
+              >
+                X
+              </div>
+              <div className={styles.sigilSlotButtons}>
                 {sigil.baseLevel < sigil.level && (
                   <button
                     className="btn btn-light btn-sm"
@@ -76,6 +68,9 @@ const Slot = ({
                   </button>
                 )}
               </div>
+              <h4 className={styles.sigilSlotName}>{sigil.name}</h4>
+              <div className={styles.sigilSlotTrait}>T. Lvl {sigil.level}</div>
+              
             </div>
           </div>
         </>
