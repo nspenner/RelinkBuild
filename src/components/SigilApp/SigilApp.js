@@ -135,8 +135,24 @@ const SigilApp = () => {
 
   const handleRemoveSigil = (slotIndex) => {
     const newSigils = [...sigils];
+    const sigil = newSigils[slotIndex];
     newSigils[slotIndex] = null;
     setSigils(newSigils);
+
+    // Handle Trait Update:
+    const newTraits = {...traits};
+    // Grab trait from removed sigil
+    const trait = traits[sigil.trait];
+    // Subtract trait level from current trait state
+    trait.level = trait.level - +sigil.level;
+    // If trait level is zero, remove trait entirely
+    if (trait.level <= 0) {
+      delete newTraits[sigil.trait]
+    } else {
+      newTraits[sigil.trait] = trait;
+    }
+    // Update trait state
+    setTraits(newTraits);
   };
 
   const handleSigilClick = () => {};
