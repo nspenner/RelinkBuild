@@ -1,114 +1,14 @@
 import React, { useState } from "react";
-import { DndProvider, useDrag, useDrop } from "react-dnd";
+import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import Sigil from "../Sigil/Sigil";
+import Slot from "../Slot/Slot";
+import SigilOption from "../SigilOption/SigilOption";
 import TraitList from "../TraitList/TraitList";
 import sigilData from "../../data/sigils.json";
 import traitData from "../../data/traits.json";
 import styles from "./SigilApp.module.css";
 
-const SigilOption = ({ sigil }) => {
-  const [{ isDragging }, drag] = useDrag({
-    type: "sigil",
-    item: { sigil },
-    collect: (monitor) => ({
-      isDragging: !!monitor.isDragging(),
-    }),
-  });
 
-  return (
-    <Sigil
-      name={sigil.name}
-      trait={sigil.trait}
-      effect={sigil.effect}
-      maxLevel={sigil.maxLevel}
-      baseLevel={sigil.baseLevel}
-      level={sigil.level} // TODO: Default to max or base level
-      innerRef={drag}
-      style={{
-        backgroundColor: "lightgray",
-        width: "50px",
-        height: "50px",
-        margin: "5px",
-        opacity: isDragging ? 0.5 : 1,
-        cursor: "move",
-      }}
-    ></Sigil>
-  );
-};
-
-const Slot = ({
-  index,
-  sigil,
-  onRemoveSigil,
-  onDropSigil,
-  onSigilLevelAdjust,
-}) => {
-  const [{ isOver }, drop] = useDrop({
-    accept: "sigil",
-    drop: (item) => onDropSigil(index, item.sigil),
-    collect: (monitor) => ({
-      isOver: !!monitor.isOver(),
-    }),
-  });
-
-  const increaseLevel = (index) => {
-    onSigilLevelAdjust(index, 1);
-  };
-
-  const decreaseLevel = (index) => {
-    onSigilLevelAdjust(index, -1);
-  };
-
-  return (
-    <div
-      className={styles.sigilSlot}
-      ref={drop}
-      style={{
-        border: isOver ? "2px dashed black" : "2px solid black",
-        margin: "5px",
-        position: "relative",
-      }}
-    >
-      {sigil && (
-        <>
-          <div
-          className="btn btn-secondary btn-sm"
-            style={{
-              position: "absolute",
-              top: "5px",
-              right: "5px",
-              cursor: "pointer",
-            }}
-            onClick={() => onRemoveSigil(index)}
-          >
-            X
-          </div>
-          <div
-            className={styles.sigilSlotActive}
-            style={{
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            <div className={styles.sigilSlotText}>
-              <div>{sigil.name}</div>
-              <div>
-                <div>T. Lvl {sigil.level}</div>
-                {sigil.baseLevel < sigil.level && (
-                  <button className="btn btn-light btn-sm" onClick={() => decreaseLevel(index)}>-</button>
-                )}
-                {sigil.maxLevel > sigil.level && (
-                  <button className="btn btn-light btn-sm" onClick={() => increaseLevel(index)}>+</button>
-                )}
-              </div>
-            </div>
-          </div>
-        </>
-      )}
-    </div>
-  );
-};
 
 const SigilApp = () => {
   const [sigils, setSigils] = useState(new Array(12).fill(null));

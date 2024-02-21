@@ -17,22 +17,3 @@
     max-height: 100vh;
     margin-right: 2rem;
 }
-
-.sigilSlot {
-    height: 80px;
-    display: flex;
-}
-
-.sigilSlotActive {
-    background: rgba(111, 233, 255, 0.548);
-    display: flex;
-    align-items: center;
-}
-
-.sigilSlotText {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 12px;
-}
