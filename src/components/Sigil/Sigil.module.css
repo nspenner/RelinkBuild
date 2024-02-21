@@ -18,3 +18,9 @@
 .container > p {
     margin: 0;
 }
+
+.levels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}

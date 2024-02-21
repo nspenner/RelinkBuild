@@ -3,7 +3,8 @@ import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import Sigil from "../Sigil/Sigil";
 import sigilData from "../../data/sigils.json";
-import styles from "./SigilApp.module.css"
+import traitData from "../../data/traits.json";
+import styles from "./SigilApp.module.css";
 
 const SigilOption = ({ sigil }) => {
   const [{ isDragging }, drag] = useDrag({
@@ -16,9 +17,12 @@ const SigilOption = ({ sigil }) => {
 
   return (
     <Sigil
-      name={sigil.Name}
-      trait={sigil.Trait}
-      effect={sigil["Sigil Effect"]}
+      name={sigil.name}
+      trait={sigil.trait}
+      effect={sigil.effect}
+      maxLevel={sigil.maxLevel}
+      baseLevel={sigil.baseLevel}
+      level={sigil.level} // TODO: Default to max or base level
       innerRef={drag}
       style={{
         backgroundColor: "lightgray",
@@ -40,6 +44,14 @@ const Slot = ({ index, sigil, onRemoveSigil, onDropSigil }) => {
       isOver: !!monitor.isOver(),
     }),
   });
+
+  const increaseLevel = () => {
+    console.log("increase");
+  };
+
+  const decreaseLevel = () => {
+    console.log("decrease");
+  };
 
   return (
     <div
@@ -72,8 +84,12 @@ const Slot = ({ index, sigil, onRemoveSigil, onDropSigil }) => {
             }}
           >
             <div className={styles.sigilSlotText}>
-              <div>{sigil.Name}</div>
-              <div>T. Level 6</div>
+              <div>{sigil.name}</div>
+              <div>
+                <div>T. Lvl {sigil.level}</div>
+                <button onClick={decreaseLevel}>-</button>
+                <button onClick={increaseLevel}>+</button>
+              </div>
             </div>
           </div>
         </>
@@ -84,11 +100,32 @@ const Slot = ({ index, sigil, onRemoveSigil, onDropSigil }) => {
 
 const SigilApp = () => {
   const [sigils, setSigils] = useState(new Array(12).fill(null));
+  const [traits, setTraits] = useState([]);
 
   const handleDropSigil = (slotIndex, sigil) => {
     const newSigils = [...sigils];
     newSigils[slotIndex] = sigil;
     setSigils(newSigils);
+    const newTraits = {...traits};
+    // If no trait found, add trait and initial level
+    if (!Object.hasOwn(newTraits, sigil.trait)) {
+      newTraits[sigil.trait] = {
+        level: +sigil.level
+      } 
+      // If a trait is found, add the sigil's current level to the existing level
+    } else {
+      newTraits[sigil.trait].level += +sigil.level;
+    }
+    // Set trait effect from traitData mapping
+    const level = newTraits[sigil.trait].level;
+    const trait = traitData.find((trait) => trait.Name === sigil.trait);
+    if (level >= trait.Levels.length) {
+      newTraits[sigil.trait].effect = trait.Levels[trait.Levels.length - 1].Effect;
+
+    } else {
+      newTraits[sigil.trait].effect = trait.Levels[level - 1].Effect;
+    }
+    setTraits(newTraits);
   };
 
   const handleRemoveSigil = (slotIndex) => {
@@ -98,6 +135,17 @@ const SigilApp = () => {
   };
 
   const handleSigilClick = () => {};
+
+  const extractSigilData = (sigilData) => {
+    return {
+      name: sigilData.Name,
+      trait: sigilData.Trait,
+      effect: sigilData["Sigil Effect"],
+      maxLevel: sigilData["Max Level"],
+      baseLevel: sigilData["Base Level"],
+      level: sigilData["Base Level"],
+    };
+  };
 
   return (
     <div className={styles.container}>
@@ -117,7 +165,11 @@ const SigilApp = () => {
         <div className={styles.sigilListContainer} style={{ display: "flex" }}>
           <h1>Sigil List</h1>
           {sigilData.map((sigil, index) => (
-            <SigilOption key={index} sigil={sigil} onClick={handleSigilClick} />
+            <SigilOption
+              key={index}
+              sigil={extractSigilData(sigil)}
+              onClick={handleSigilClick}
+            />
           ))}
         </div>
       </DndProvider>

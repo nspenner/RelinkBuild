@@ -2,27 +2,37 @@
  {
    "Name": "Aegis I",
    "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.                  Max Sigil Effect: T.Lvl 1, HP +5%"
+   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
+   "Base Level": 1,
+   "Max Level": 1
  },
  {
    "Name": "Aegis II",
    "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.                  Max Sigil Effect: T.Lvl 3, HP +11%"
+   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
+   "Base Level": 1,
+   "Max Level": 3
  },
  {
    "Name": "Aegis III",
    "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.                  Max Sigil Effect: T.Lvl 6, HP +17%"
+   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
+   "Base Level": 4,
+   "Max Level": 6
  },
  {
    "Name": "Aegis IV",
    "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.                  Max Sigil Effect: T.Lvl 10, HP +25%"
+   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
+   "Base Level": 7,
+   "Max Level": 10
  },
  {
    "Name": "Aegis V",
    "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.                  Max Sigil Effect: T.Lvl 15, HP +35%"
+   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
+   "Base Level": 11,
+   "Max Level": 15
  },
  {
    "Name": "Attack Down Resistance I",
