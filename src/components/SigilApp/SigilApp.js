@@ -157,6 +157,9 @@ const SigilApp = () => {
     if (trait.level <= 0) {
       delete newTraits[sigil.trait];
     } else {
+      if (trait.level < trait.maxLevel) {
+        trait.effect = trait.levels[trait.level - 1]["Effect"];
+      }
       newTraits[sigil.trait] = trait;
     }
     setTraits(newTraits);
