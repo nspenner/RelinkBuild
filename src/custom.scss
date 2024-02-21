@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&display=swap');
+
+// Override default variables before the import
+$font-family-sans-serif: "Barlow", Arial, Helvetica, sans-serif;
+$font-weight-normal: 500;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

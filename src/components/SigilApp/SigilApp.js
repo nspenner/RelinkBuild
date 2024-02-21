@@ -73,6 +73,7 @@ const Slot = ({
       {sigil && (
         <>
           <div
+          className="btn btn-secondary btn-sm"
             style={{
               position: "absolute",
               top: "5px",
@@ -95,10 +96,10 @@ const Slot = ({
               <div>
                 <div>T. Lvl {sigil.level}</div>
                 {sigil.baseLevel < sigil.level && (
-                  <button onClick={() => decreaseLevel(index)}>-</button>
+                  <button className="btn btn-light btn-sm" onClick={() => decreaseLevel(index)}>-</button>
                 )}
                 {sigil.maxLevel > sigil.level && (
-                  <button onClick={() => increaseLevel(index)}>+</button>
+                  <button className="btn btn-light btn-sm" onClick={() => increaseLevel(index)}>+</button>
                 )}
               </div>
             </div>
