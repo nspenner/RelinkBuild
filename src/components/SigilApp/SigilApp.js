@@ -100,33 +100,36 @@ const SigilApp = () => {
   };
 
   return (
-    <div className={styles.container}>
-      <DndProvider backend={HTML5Backend}>
-        <div className={styles.sigilSlotsContainer} style={{ display: "flex" }}>
-          <h1>Equipped Sigils</h1>
-          {sigils.map((sigil, index) => (
-            <Slot
-              key={index}
-              index={index}
-              sigil={sigil}
-              onRemoveSigil={handleRemoveSigil}
-              onDropSigil={handleDropSigil}
-              onSigilLevelAdjust={handleSigilLevelAdjust}
-            />
-          ))}
-        </div>
-        <div className={styles.sigilListContainer} style={{ display: "flex" }}>
-          <h1>Sigil List</h1>
-          {sigilData.map((sigil, index) => (
-            <SigilOption
-              key={index}
-              sigil={extractSigilData(sigil)}
-              onSigilClick={handleSigilClick}
-            />
-          ))}
-        </div>
-      </DndProvider>
-      <TraitList traits={traits}></TraitList>
+    <div className={`container-fluid ${styles.container}`}>
+      <div className="row" style={{width: "100%"}}>
+        <DndProvider backend={HTML5Backend}>
+          <div className={`col-lg-3 ${styles.sigilSlotsContainer}`} style={{ display: "flex" }}>
+            <h1>Equipped Sigils</h1>
+            {sigils.map((sigil, index) => (
+              <Slot  
+                key={index}
+                index={index}
+                sigil={sigil}
+                onRemoveSigil={handleRemoveSigil}
+                onDropSigil={handleDropSigil}
+                onSigilLevelAdjust={handleSigilLevelAdjust}
+              />
+            ))}
+          </div>
+          <div className={`col-lg-4 ${styles.sigilListContainer}`} style={{ display: "flex" }}>
+            <h1>Sigil List</h1>
+            {sigilData.map((sigil, index) => (
+              <SigilOption
+                key={index}
+                sigil={extractSigilData(sigil)}
+                onSigilClick={handleSigilClick}
+              />
+            ))}
+          </div>
+        </DndProvider>
+        <TraitList traits={traits}></TraitList>
+
+      </div>
     </div>
   );
 };

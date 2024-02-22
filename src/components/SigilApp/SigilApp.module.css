@@ -5,15 +5,11 @@
 .sigilSlotsContainer {
     display: flex;
     flex-direction: column;
-    flex: 4;
-    margin-right: 2rem;
 }
 
 
 .sigilListContainer {
     flex-direction: column;
-    flex: 4;
     overflow: scroll;
     max-height: 100vh;
-    margin-right: 2rem;
 }

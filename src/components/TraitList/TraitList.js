@@ -16,7 +16,7 @@ const TraitList = ({ traits }) => {
   });
 
   return (
-    <div className={styles.container}>
+    <div className={`col-lg-5 ${styles.container}`}>
       <h1>Active Traits</h1>
       <ul>{renderedTraits}</ul>
     </div>
