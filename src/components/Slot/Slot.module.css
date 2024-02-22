@@ -19,20 +19,25 @@
 }
 
 .sigilSlotCloseButton {
-    width: min-content;
-    font-size: .75rem;
-    height: 28px;
+  width: min-content;
+  font-size: 0.75rem;
+  height: 28px;
 }
 
 .sigilSlotName {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .sigilSlotTrait {
-    align-self: flex-end;
-    justify-self: flex-end;
+  align-self: flex-end;
+  justify-self: flex-end;
 }
 
 .sigilSlotButtons {
-    justify-self: flex-end;
+  justify-self: flex-end;
+}
+
+.sigilSlotButtons button:disabled {
+  cursor: not-allowed;
+  pointer-events:  all;
 }

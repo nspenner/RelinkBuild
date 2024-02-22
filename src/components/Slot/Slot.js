@@ -51,26 +51,24 @@ const Slot = ({
                 X
               </div>
               <div className={styles.sigilSlotButtons}>
-                {sigil.baseLevel < sigil.level && (
-                  <button
-                    className="btn btn-light btn-sm"
-                    onClick={() => decreaseLevel(index)}
-                  >
-                    -
-                  </button>
-                )}
-                {sigil.maxLevel > sigil.level && (
-                  <button
-                    className="btn btn-light btn-sm"
-                    onClick={() => increaseLevel(index)}
-                  >
-                    +
-                  </button>
-                )}
+                <button
+                  className="btn btn-light btn-sm"
+                  disabled={sigil.baseLevel >= sigil.level}
+                  onClick={() => decreaseLevel(index)}
+                >
+                  -
+                </button>
+
+                <button
+                  className="btn btn-light btn-sm ms-2"
+                  onClick={() => increaseLevel(index)}
+                  disabled={sigil.maxLevel <= sigil.level}
+                >
+                  +
+                </button>
               </div>
               <h4 className={styles.sigilSlotName}>{sigil.name}</h4>
               <div className={styles.sigilSlotTrait}>T. Lvl {sigil.level}</div>
-              
             </div>
           </div>
         </>
