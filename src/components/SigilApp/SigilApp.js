@@ -15,6 +15,10 @@ const SigilApp = () => {
   const [traits, setTraits] = useState([]);
 
   const handleDropSigil = (slotIndex, sigil) => {
+    // Don't allow overwrites
+    if (sigils[slotIndex] !== null) {
+      return;
+    }
     const newSigils = [...sigils];
     newSigils[slotIndex] = sigil;
     setSigils(newSigils);

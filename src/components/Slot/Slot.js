@@ -29,7 +29,7 @@ const Slot = ({
       className={styles.sigilSlot}
       ref={drop}
       style={{
-        border: isOver ? "2px dashed black" : "2px solid black",
+        border: (isOver && !sigil) ? "2px dashed black" : "2px solid black",
         margin: "5px",
         position: "relative",
       }}
