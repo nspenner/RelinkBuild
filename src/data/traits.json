@@ -1,390 +1,9557 @@
 [
-    {
-        "Name": "Aegis",
-        "Levels": [
-            {
-                "Level": 1,
-                "Effect": "HP +5%"
-            },
-            {
-                "Level": 2,
-                "Effect": "HP +8%"
-            },
-            {
-                "Level": 3,
-                "Effect": "HP +11%"
-            },
-            {
-                "Level": 4,
-                "Effect": "HP +13%"
-            },
-            {
-                "Level": 5,
-                "Effect": "HP +15%"
-            },
-            {
-                "Level": 6,
-                "Effect": "HP +17%"
-            },
-            {
-                "Level": 7,
-                "Effect": "HP +19%"
-            },
-            {
-                "Level": 8,
-                "Effect": "HP +21%"
-            },
-            {
-                "Level": 9,
-                "Effect": "HP +23%"
-            },
-            {
-                "Level": 10,
-                "Effect": "HP +25%"
-            },
-            {
-                "Level": 11,
-                "Effect": "HP +27%"
-            },
-            {
-                "Level": 12,
-                "Effect": "HP +29%"
-            },
-            {
-                "Level": 13,
-                "Effect": "HP +31%"
-            },            {
-                "Level": 14,
-                "Effect": "HP +33%"
-            },
-            {
-                "Level": 15,
-                "Effect": "HP +35%"
-            },
-            {
-                "Level": 16,
-                "Effect": "HP +36%"
-            },
-            {
-                "Level": 17,
-                "Effect": "HP +37%"
-            },
-            {
-                "Level": 18,
-                "Effect": "HP +38%"
-            },
-            {
-                "Level": 19,
-                "Effect": "HP +39%"
-            },
-            {
-                "Level": 20,
-                "Effect": "HP +40%"
-            },
-            {
-                "Level": 21,
-                "Effect": "HP +41%"
-            },
-            {
-                "Level": 22,
-                "Effect": "HP +42%"
-            },
-            {
-                "Level": 23,
-                "Effect": "HP +43%"
-            },
-            {
-                "Level": 24,
-                "Effect": "HP +44%"
-            },
-            {
-                "Level": 25,
-                "Effect": "HP +45%"
-            },
-            {
-                "Level": 26,
-                "Effect": "HP +46%"
-            },
-            {
-                "Level": 27,
-                "Effect": "HP +47%"
-            },
-            {
-                "Level": 28,
-                "Effect": "HP +48%"
-            },
-            {
-                "Level": 29,
-                "Effect": "HP +49%"
-            },
-            {
-                "Level": 30,
-                "Effect": "HP +50%"
-            },            {
-                "Level": 31,
-                "Effect": "HP +52%"
-            },
-            {
-                "Level": 32,
-                "Effect": "HP +54%"
-            },
-            {
-                "Level": 33,
-                "Effect": "HP +56%"
-            },
-            {
-                "Level": 34,
-                "Effect": "HP +58%"
-            },
-            {
-                "Level": 35,
-                "Effect": "HP +60%"
-            },
-            {
-                "Level": 36,
-                "Effect": "HP +62%"
-            },
-            {
-                "Level": 37,
-                "Effect": "HP +64%"
-            },
-            {
-                "Level": 38,
-                "Effect": "HP +66%"
-            },
-            {
-                "Level": 39,
-                "Effect": "HP +68%"
-            },
-            {
-                "Level": 40,
-                "Effect": "HP +72%"
-            },
-            {
-                "Level": 41,
-                "Effect": "HP +72%"
-            },
-            {
-                "Level": 42,
-                "Effect": "HP +74%"
-            },            {
-                "Level": 43,
-                "Effect": "HP +76%"
-            },
-            {
-                "Level": 44,
-                "Effect": "HP +78%"
-            },
-            {
-                "Level": 45,
-                "Effect": "HP +80%"
-            }
-        ],
-        "Max Level": 45,
-        "Description": "Raises maximum health as a proportion of your current maximum health."
-    },
-    {
-        "Name": "ATK↓ Resistance",
-        "Levels": [
-            {
-                "Level": 1,
-                "Effect": "ATK RES +5%"
-            },
-            {
-                "Level": 2,
-                "Effect": "ATK RES +8%"
-            },
-            {
-                "Level": 3,
-                "Effect": "ATK RES +11%"
-            },
-            {
-                "Level": 4,
-                "Effect": "ATK RES +13%"
-            },
-            {
-                "Level": 5,
-                "Effect": "ATK RES +15%"
-            },
-            {
-                "Level": 6,
-                "Effect": "ATK RES +17%"
-            },
-            {
-                "Level": 7,
-                "Effect": "ATK RES +19%"
-            },
-            {
-                "Level": 8,
-                "Effect": "ATK RES +21%"
-            },
-            {
-                "Level": 9,
-                "Effect": "ATK RES +23%"
-            },
-            {
-                "Level": 10,
-                "Effect": "ATK RES +25%"
-            },
-            {
-                "Level": 11,
-                "Effect": "ATK RES +27%"
-            },
-            {
-                "Level": 12,
-                "Effect": "ATK RES +29%"
-            },
-            {
-                "Level": 13,
-                "Effect": "ATK RES +31%"
-            },            {
-                "Level": 14,
-                "Effect": "ATK RES +33%"
-            },
-            {
-                "Level": 15,
-                "Effect": "ATK RES +35%"
-            },
-            {
-                "Level": 16,
-                "Effect": "ATK RES +36%"
-            },
-            {
-                "Level": 17,
-                "Effect": "ATK RES +37%"
-            },
-            {
-                "Level": 18,
-                "Effect": "ATK RES +38%"
-            },
-            {
-                "Level": 19,
-                "Effect": "ATK RES +39%"
-            },
-            {
-                "Level": 20,
-                "Effect": "ATK RES +40%"
-            },
-            {
-                "Level": 21,
-                "Effect": "ATK RES +41%"
-            },
-            {
-                "Level": 22,
-                "Effect": "ATK RES +42%"
-            },
-            {
-                "Level": 23,
-                "Effect": "ATK RES +43%"
-            },
-            {
-                "Level": 24,
-                "Effect": "ATK RES +44%"
-            },
-            {
-                "Level": 25,
-                "Effect": "ATK RES +45%"
-            },
-            {
-                "Level": 26,
-                "Effect": "ATK RES +46%"
-            },
-            {
-                "Level": 27,
-                "Effect": "ATK RES +47%"
-            },
-            {
-                "Level": 28,
-                "Effect": "ATK RES +48%"
-            },
-            {
-                "Level": 29,
-                "Effect": "ATK RES +49%"
-            },
-            {
-                "Level": 30,
-                "Effect": "ATK RES +50%"
-            },            {
-                "Level": 31,
-                "Effect": "ATK RES +52%"
-            },
-            {
-                "Level": 32,
-                "Effect": "ATK RES +54%"
-            },
-            {
-                "Level": 33,
-                "Effect": "ATK RES +56%"
-            },
-            {
-                "Level": 34,
-                "Effect": "ATK RES +58%"
-            },
-            {
-                "Level": 35,
-                "Effect": "ATK RES +60%"
-            },
-            {
-                "Level": 36,
-                "Effect": "ATK RES +62%"
-            },
-            {
-                "Level": 37,
-                "Effect": "ATK RES +64%"
-            },
-            {
-                "Level": 38,
-                "Effect": "ATK RES +66%"
-            },
-            {
-                "Level": 39,
-                "Effect": "ATK RES +68%"
-            },
-            {
-                "Level": 40,
-                "Effect": "ATK RES +72%"
-            },
-            {
-                "Level": 41,
-                "Effect": "ATK RES +72%"
-            },
-            {
-                "Level": 42,
-                "Effect": "ATK RES +74%"
-            },            {
-                "Level": 43,
-                "Effect": "ATK RES +76%"
-            },
-            {
-                "Level": 44,
-                "Effect": "ATK RES +78%"
-            },
-            {
-                "Level": 45,
-                "Effect": "ATK RES +80%"
-            },
-            {
-                "Level": 46,
-                "Effect": "ATK RES +81%"
-            },
-            {
-                "Level": 47,
-                "Effect": "ATK RES +82%"
-            },
-            {
-                "Level": 48,
-                "Effect": "ATK RES +83%"
-            },
-            {
-                "Level": 49,
-                "Effect": "ATK RES +84%"
-            },
-            {
-                "Level": 50,
-                "Effect": "ATK RES +85%"
-            }
-        ],
-        "Max Level": 50,
-        "Description": "Recover faster from ATK↓"
-    }
+  {
+    "Name": "Aegis",
+    "Levels": [
+        {
+            "Level": 1,
+            "Effect": "HP +5%"
+        },
+        {
+            "Level": 2,
+            "Effect": "HP +8%"
+        },
+        {
+            "Level": 3,
+            "Effect": "HP +11%"
+        },
+        {
+            "Level": 4,
+            "Effect": "HP +13%"
+        },
+        {
+            "Level": 5,
+            "Effect": "HP +15%"
+        },
+        {
+            "Level": 6,
+            "Effect": "HP +17%"
+        },
+        {
+            "Level": 7,
+            "Effect": "HP +19%"
+        },
+        {
+            "Level": 8,
+            "Effect": "HP +21%"
+        },
+        {
+            "Level": 9,
+            "Effect": "HP +23%"
+        },
+        {
+            "Level": 10,
+            "Effect": "HP +25%"
+        },
+        {
+            "Level": 11,
+            "Effect": "HP +27%"
+        },
+        {
+            "Level": 12,
+            "Effect": "HP +29%"
+        },
+        {
+            "Level": 13,
+            "Effect": "HP +31%"
+        },            {
+            "Level": 14,
+            "Effect": "HP +33%"
+        },
+        {
+            "Level": 15,
+            "Effect": "HP +35%"
+        },
+        {
+            "Level": 16,
+            "Effect": "HP +36%"
+        },
+        {
+            "Level": 17,
+            "Effect": "HP +37%"
+        },
+        {
+            "Level": 18,
+            "Effect": "HP +38%"
+        },
+        {
+            "Level": 19,
+            "Effect": "HP +39%"
+        },
+        {
+            "Level": 20,
+            "Effect": "HP +40%"
+        },
+        {
+            "Level": 21,
+            "Effect": "HP +41%"
+        },
+        {
+            "Level": 22,
+            "Effect": "HP +42%"
+        },
+        {
+            "Level": 23,
+            "Effect": "HP +43%"
+        },
+        {
+            "Level": 24,
+            "Effect": "HP +44%"
+        },
+        {
+            "Level": 25,
+            "Effect": "HP +45%"
+        },
+        {
+            "Level": 26,
+            "Effect": "HP +46%"
+        },
+        {
+            "Level": 27,
+            "Effect": "HP +47%"
+        },
+        {
+            "Level": 28,
+            "Effect": "HP +48%"
+        },
+        {
+            "Level": 29,
+            "Effect": "HP +49%"
+        },
+        {
+            "Level": 30,
+            "Effect": "HP +50%"
+        },            {
+            "Level": 31,
+            "Effect": "HP +52%"
+        },
+        {
+            "Level": 32,
+            "Effect": "HP +54%"
+        },
+        {
+            "Level": 33,
+            "Effect": "HP +56%"
+        },
+        {
+            "Level": 34,
+            "Effect": "HP +58%"
+        },
+        {
+            "Level": 35,
+            "Effect": "HP +60%"
+        },
+        {
+            "Level": 36,
+            "Effect": "HP +62%"
+        },
+        {
+            "Level": 37,
+            "Effect": "HP +64%"
+        },
+        {
+            "Level": 38,
+            "Effect": "HP +66%"
+        },
+        {
+            "Level": 39,
+            "Effect": "HP +68%"
+        },
+        {
+            "Level": 40,
+            "Effect": "HP +72%"
+        },
+        {
+            "Level": 41,
+            "Effect": "HP +72%"
+        },
+        {
+            "Level": 42,
+            "Effect": "HP +74%"
+        },            {
+            "Level": 43,
+            "Effect": "HP +76%"
+        },
+        {
+            "Level": 44,
+            "Effect": "HP +78%"
+        },
+        {
+            "Level": 45,
+            "Effect": "HP +80%"
+        }
+    ],
+    "Max Level": 45,
+    "Description": "Raises maximum health as a proportion of your current maximum health."
+},
+  {
+    "Name": "ATK",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 45,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 46,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 47,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 48,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 49,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 50,
+    "Description": "Boosts attack power."
+  },
+  {
+    "Name": "ATK↓ Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from ATK↓"
+  },
+  {
+    "Name": "Autorevive",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 20,
+    "Description": "Automatically recover from critical condition. Reactivation time is shortened based on trait level."
+  },
+  {
+    "Name": "Blight Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Reduces the amount of damage inflicted by Blight."
+  },
+  {
+    "Name": "Break Assassin",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Deal more damage to foes in Break."
+  },
+  {
+    "Name": "Break Assassin",
+    "Levels": [],
+    "Max Level": null,
+    "Description": "Deal more damage to foes in Break."
+  },
+  {
+    "Name": "Burn Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Reduces the amount of damage inflicted by Burn."
+  },
+  {
+    "Name": "Butterfly's Grace (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Grants more butterflies to Narmaya whenever she lands a combo finisher or link attack."
+  },
+  {
+    "Name": "Cascade",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 20,
+    "Description": "Shortens skill cooldowns whenever you hit a foe. Effect strength changes based on the attack type."
+  },
+  {
+    "Name": "Charged Attack DMG",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts the power of charged attacks."
+  },
+  {
+    "Name": "Combo Booster",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Gradually boosts damage of each successive hit. Effect resets if the next hit isn't made in time."
+  },
+  {
+    "Name": "Combo Finisher DMG",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts the power of combo finishers."
+  },
+  {
+    "Name": "Concentrated Fire",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts the power of ranged attacks."
+  },
+  {
+    "Name": "Crabby Resonance (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Raises trait level based on wee pincer rescued. You then gain the associated effect."
+  },
+  {
+    "Name": "Critical Hit DMG",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts damage dealt by critical hits."
+  },
+  {
+    "Name": "Critical Hit Rate",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Boosts critical hit rate."
+  },
+  {
+    "Name": "Darkflame Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Darkflame."
+  },
+  {
+    "Name": "DEF↓ Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from DEF↓."
+  },
+  {
+    "Name": "DMG Cap",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 45,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 46,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 47,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 48,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 49,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 50,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 51,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 52,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 53,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 54,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 55,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 56,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 57,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 58,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 59,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 60,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 61,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 62,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 63,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 64,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 65,
+    "Description": "Raises the damage limit of attacks."
+  },
+  {
+    "Name": "Dizzy Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Dizzy."
+  },
+  {
+    "Name": "Dodge Payback",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Extends Invincibility after a perfect dodge and temporarily boosts attack power."
+  },
+  {
+    "Name": "Dragonslayer's Dominance (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Drain",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Recover health based on the damage dealt to a foe."
+  },
+  {
+    "Name": "Dodge Payback",
+    "Levels": [],
+    "Max Level": null,
+    "Description": "Extends Invincibility after a perfect dodge and temporarily boosts attack power."
+  },
+  {
+    "Name": "Ebony's Presence (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Enmity",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts attack based on how low your health is."
+  },
+  {
+    "Name": "Eternal Rage's Mettle (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Fast Learner",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Earn more experience points for defeating foes and clearing quests."
+  },
+  {
+    "Name": "Fearless Drive (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Firm Stance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Reduces the effect of being pulled in or repelled by physical forces."
+  },
+  {
+    "Name": "Founder's Strategy (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Garrison",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Boosts defense based on how low your health is."
+  },
+  {
+    "Name": "Glaciate Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Frostbite and Glaciate."
+  },
+  {
+    "Name": "Guard Payback",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts the amount of stun dealt back at foes after a perfect guard and temporarily boosts attack power."
+  },
+  {
+    "Name": "Guts",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 20,
+    "Description": "Survive a lethal hit with 1 HP. Reactivation time is shortened based on trait level."
+  },
+  {
+    "Name": "Held Under Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Held Under."
+  },
+  {
+    "Name": "Hero's Creed (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Holy Knight's Luster (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "HP",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 45,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 46,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 47,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 48,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 49,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 50,
+    "Description": "Boosts base health."
+  },
+  {
+    "Name": "Improved Dodge (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Extends the window for foe attacks to miss during a dodge. Allows you to perform more dodges in a row."
+  },
+  {
+    "Name": "Improved Guard",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Makes your guard harder to break."
+  },
+  {
+    "Name": "Improved Healing",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Raises the healing cap and healing amount of healing skills."
+  },
+  {
+    "Name": "Injury to Insult",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Deal more damage to foes inflicted with status ailments."
+  },
+  {
+    "Name": "Life on the Line",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts your attack power, but healing from allies won't restore your health."
+  },
+  {
+    "Name": "Linked Together",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the amount of link level gained."
+  },
+  {
+    "Name": "Lord's Procession (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Low Profile",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 20,
+    "Description": "Foes are less likely to target you."
+  },
+  {
+    "Name": "Lucky Charge",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 20,
+    "Description": "Boosts the critical hit of charged attacks."
+  },
+  {
+    "Name": "Mage's Aspiration (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Nimble Defense",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Extends Invincibility after a perfect dodge. Temporarily boosts defense and restores a small bit of health."
+  },
+  {
+    "Name": "Nimble Onslaught",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Extends Invincibility after a perfect dodge. Boosts the charge speed of your SBA gauge and shortens skill cooldowns."
+  },
+  {
+    "Name": "Overdrive Assassin",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Deal more damage to foes in Overdrive."
+  },
+  {
+    "Name": "Paralysis Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Paralysis."
+  },
+  {
+    "Name": "Path to Mastery",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Boosts the amount of mastery points earned. The effect doesn't apply to online players in your party."
+  },
+  {
+    "Name": "Phantasm's Concord (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Potion Hoarder",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Increases the stock of recovery items."
+  },
+  {
+    "Name": "Precise Resilience",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Temporarily boosts defense and restores a small bit of health after a perfect guard."
+  },
+  {
+    "Name": "Precise Wrath",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns after a perfect guard."
+  },
+  {
+    "Name": "Provoke",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 20,
+    "Description": "Foes are more likely to target you."
+  },
+  {
+    "Name": "Quick Charge",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Charged attacks charge faster. Boosts attack power."
+  },
+  {
+    "Name": "Quick Cooldown",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Shortens skill cooldowns."
+  },
+  {
+    "Name": "Regen",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Automatically recover health over time."
+  },
+  {
+    "Name": "Rose's Blooming (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Rupie Tycoon",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Earn more rupies. The effect doesn't apply to online players in your party."
+  },
+  {
+    "Name": "Sandtomb Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Sandtomb."
+  },
+  {
+    "Name": "Skilled Assault",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts the power of damage skills."
+  },
+  {
+    "Name": "Slow Resistance",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Recover faster from Slow."
+  },
+  {
+    "Name": "Stamina",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts attack based on how high your health is."
+  },
+  {
+    "Name": "Steady Focus",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Boosts defense and can't be interrupted by foe attacks while charging attacks."
+  },
+  {
+    "Name": "Steel Nerves",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Take less damage while Stout Heart is active."
+  },
+  {
+    "Name": "Stout Heart (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Stun Power",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Boosts stun power."
+  },
+  {
+    "Name": "Swordmaster's Prowess (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Throw DMG",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Boosts damage of thrown objects."
+  },
+  {
+    "Name": "Tyranny",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 30,
+    "Description": "Reduces maximum base health in exchange for a boost to attack."
+  },
+  {
+    "Name": "Uplift",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Boosts the charge speed of your SBA gauge."
+  },
+  {
+    "Name": "Veteran's Insight (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  },
+  {
+    "Name": "Weak Point DMG",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 15,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 16,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 17,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 18,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 19,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 20,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 21,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 22,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 23,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 24,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 25,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 26,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 27,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 28,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 29,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 30,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 31,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 32,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 33,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 34,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 35,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 36,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 37,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 38,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 39,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 40,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 41,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 42,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 43,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 44,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 45,
+    "Description": "Boosts damage against weak points and attacks from behind."
+  },
+  {
+    "Name": "White Dragon's Oath (Trait)",
+    "Levels": [
+      {
+        "Level": 0,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 1,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 2,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 3,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 4,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 5,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 6,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 7,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 8,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 9,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 10,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 11,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 12,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 13,
+        "Effect": "TEMP"
+      },
+      {
+        "Level": 14,
+        "Effect": "TEMP"
+      }
+    ],
+    "Max Level": 15,
+    "Description": "Effect TBC"
+  }
 ]
