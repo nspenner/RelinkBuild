@@ -1,5 +1,5 @@
 .sigilSlot {
-  height: 80px;
+  min-height: 80px;
   display: flex;
 }
 
@@ -40,4 +40,11 @@
 .sigilSlotButtons button:disabled {
   cursor: not-allowed;
   pointer-events:  all;
+}
+
+.sigilSubSlot {
+  display: flex;
+  grid-column: -1 / 1;
+  width: 100%;
+  margin: .25rem 0;
 }

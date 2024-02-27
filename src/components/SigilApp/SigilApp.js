@@ -10,6 +10,13 @@ import traitData from "../../data/traits.json";
 import styles from "./SigilApp.module.css";
 
 const SigilApp = () => {
+  const sigilOptions = [...new Set(sigilData.map((sigil) => sigil.Trait))].map(
+    (trait) => ({
+      label: trait,
+      value: trait
+    })
+  );
+
   const [sigils, setSigils] = useState(new Array(12).fill(null));
   const [traits, setTraits] = useState([]);
   const [filteredSigilData, setFilteredSigilData] = useState([]);
@@ -24,6 +31,63 @@ const SigilApp = () => {
     setFilteredSigilData(results.map((result) => result.item));
   }, [searchTerm]);
 
+  const addTrait = (traitName, initialLevel) => {
+    const newTraits = { ...traits };
+    const trait = traitData.find((trait) => trait.Name === traitName);
+    // If no trait found, add trait and initial properties
+    if (!Object.hasOwn(newTraits, traitName)) {
+      newTraits[traitName] = {
+        level: +initialLevel,
+        description: trait["Description"],
+        maxLevel: trait["Max Level"],
+        levels: trait["Levels"],
+      };
+      // If a trait is found, add the sigil's current level to the existing level
+    } else {
+      newTraits[traitName].level += +initialLevel;
+    }
+    // Set trait effect from traitData mapping
+    const level = newTraits[traitName].level;
+    if (level >= trait.Levels.length) {
+      newTraits[traitName].effect =
+        trait.Levels[trait.Levels.length - 1].Effect;
+    } else {
+      newTraits[traitName].effect = trait.Levels[level - 1].Effect;
+    }
+
+    setTraits(newTraits);
+  };
+
+  const adjustTraitLevel = (traitName, value) => {
+    const newTraits = { ...traits };
+    const trait = traits[traitName];
+    trait.level = trait.level + value;
+    if (trait.level <= 0) {
+      delete newTraits[traitName];
+    } else if (trait.level <= trait.maxLevel) {
+      trait.effect = trait.levels[trait.level - 1]["Effect"];
+      newTraits[traitName] = trait;
+    }
+    setTraits(newTraits);
+  };
+
+  //TODO: Think of a better way to name/handle this data model
+  const adjustTraitLevels = (traitNames) => {
+    const newTraits = { ...traits };
+    traitNames.forEach((traitName) => {
+      const trait = traits[traitName.name];
+      trait.level = trait.level + traitName.value;
+      if (trait.level <= 0) {
+        debugger;
+        delete newTraits[traitName.name];
+      } else if (trait.level <= trait.maxLevel) {
+        trait.effect = trait.levels[trait.level - 1]["Effect"];
+        newTraits[traitName.name] = trait;
+      }
+    });
+    setTraits(newTraits);
+  };
+
   const handleDropSigil = (slotIndex, sigil) => {
     // Don't allow overwrites
     if (sigils[slotIndex] !== null) {
@@ -32,30 +96,7 @@ const SigilApp = () => {
     const newSigils = [...sigils];
     newSigils[slotIndex] = sigil;
     setSigils(newSigils);
-    const newTraits = { ...traits };
-    const trait = traitData.find((trait) => trait.Name === sigil.trait);
-    // If no trait found, add trait and initial properties
-    if (!Object.hasOwn(newTraits, sigil.trait)) {
-      newTraits[sigil.trait] = {
-        level: +sigil.level,
-        description: trait["Description"],
-        maxLevel: trait["Max Level"],
-        levels: trait["Levels"],
-      };
-      // If a trait is found, add the sigil's current level to the existing level
-    } else {
-      newTraits[sigil.trait].level += +sigil.level;
-    }
-    // Set trait effect from traitData mapping
-    const level = newTraits[sigil.trait].level;
-    if (level >= trait.Levels.length) {
-      newTraits[sigil.trait].effect =
-        trait.Levels[trait.Levels.length - 1].Effect;
-    } else {
-      newTraits[sigil.trait].effect = trait.Levels[level - 1].Effect;
-    }
-
-    setTraits(newTraits);
+    addTrait(sigil.trait, sigil.level);
   };
 
   const handleRemoveSigil = (slotIndex) => {
@@ -63,21 +104,12 @@ const SigilApp = () => {
     const sigil = newSigils[slotIndex];
     newSigils[slotIndex] = null;
     setSigils(newSigils);
-
-    const newTraits = { ...traits };
-    // Grab trait from removed sigil and subtract the removed sigil's level
-    const trait = traits[sigil.trait];
-    trait.level = trait.level - +sigil.level;
-    // If trait level is zero, remove trait entirely
-    if (trait.level <= 0) {
-      delete newTraits[sigil.trait];
-    } else {
-      if (trait.level < trait.maxLevel) {
-        trait.effect = trait.levels[trait.level - 1]["Effect"];
-      }
-      newTraits[sigil.trait] = trait;
+    const traitsToUpdate = [{ name: sigil.trait, value: -+sigil.level }];
+    if (sigil.subtrait) {
+      // TODO: Handle subtraits that match main trait
+      traitsToUpdate.push({ name: sigil.subtrait, value: -+sigil.level });
     }
-    setTraits(newTraits);
+    adjustTraitLevels(traitsToUpdate);
   };
 
   const handleSigilClick = (sigil) => {
@@ -92,14 +124,10 @@ const SigilApp = () => {
     newSigils[slotIndex] = sigil;
     setSigils(newSigils);
 
-    const newTraits = { ...traits };
-    const trait = traits[sigil.trait];
-    trait.level = trait.level + value;
-    if (trait.level <= trait.maxLevel) {
-      trait.effect = trait.levels[trait.level - 1]["Effect"];
+    adjustTraitLevel(sigil.trait, value);
+    if (sigil.subtrait) {
+      adjustTraitLevel(sigil.subtrait, value);
     }
-    newTraits[sigil.trait] = trait;
-    setTraits(newTraits);
   };
 
   const extractSigilData = (sigilData) => {
@@ -115,6 +143,23 @@ const SigilApp = () => {
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
+  };
+
+  const handleSelectSubTrait = (index, selectedTrait) => {
+    console.log(selectedTrait);
+    const newSigils = [...sigils];
+    // Remove old trait if subtrait changed
+    if (
+      newSigils[index].subtrait &&
+      newSigils[index].subtrait !== selectedTrait
+    ) {
+      const newTraits = { ...traits };
+      delete newTraits[newSigils[index].subtrait];
+      setTraits(newTraits);
+    }
+    newSigils[index].subtrait = selectedTrait;
+    setSigils(newSigils);
+    addTrait(newSigils[index].subtrait, newSigils[index].level);
   };
 
   return (
@@ -134,6 +179,8 @@ const SigilApp = () => {
                 onRemoveSigil={handleRemoveSigil}
                 onDropSigil={handleDropSigil}
                 onSigilLevelAdjust={handleSigilLevelAdjust}
+                sigilOptions={sigilOptions}
+                onSelectSubTrait={handleSelectSubTrait}
               />
             ))}
           </div>

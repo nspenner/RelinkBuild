@@ -1,5 +1,6 @@
 import styles from "./Slot.module.css";
 import { useDrop } from "react-dnd";
+import Select from "react-select";
 
 const Slot = ({
   index,
@@ -7,6 +8,8 @@ const Slot = ({
   onRemoveSigil,
   onDropSigil,
   onSigilLevelAdjust,
+  sigilOptions,
+  onSelectSubTrait,
 }) => {
   const [{ isOver }, drop] = useDrop({
     accept: "sigil",
@@ -24,12 +27,16 @@ const Slot = ({
     onSigilLevelAdjust(index, -1);
   };
 
+  const handleSigilSlotChange = (selectedOption) => {
+    onSelectSubTrait(index, selectedOption.label);
+  };
+
   return (
     <div
       className={styles.sigilSlot}
       ref={drop}
       style={{
-        border: (isOver && !sigil) ? "2px dashed black" : "2px solid black",
+        border: isOver && !sigil ? "2px dashed black" : "2px solid black",
         margin: "5px",
         position: "relative",
       }}
@@ -69,6 +76,19 @@ const Slot = ({
               </div>
               <h4 className={styles.sigilSlotName}>{sigil.name}</h4>
               <div className={styles.sigilSlotTrait}>T. Lvl {sigil.level}</div>
+              <div className={styles.sigilSubSlot}>
+                <Select
+                  options={sigilOptions}
+                  isSearchable
+                  onChange={handleSigilSlotChange}
+                  styles={{
+                    container: (baseStyles, state) => ({
+                      ...baseStyles,
+                      width: "100%",
+                    })
+                  }}
+                />
+              </div>
             </div>
           </div>
         </>
