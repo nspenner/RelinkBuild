@@ -45,6 +45,6 @@
 .sigilSubSlot {
   display: flex;
   grid-column: -1 / 1;
-  border: 1px solid rgb(126, 126, 126);
   width: 100%;
+  margin: .25rem 0;
 }

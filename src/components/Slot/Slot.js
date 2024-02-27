@@ -9,7 +9,7 @@ const Slot = ({
   onDropSigil,
   onSigilLevelAdjust,
   sigilOptions,
-  onSelectSubTrait
+  onSelectSubTrait,
 }) => {
   const [{ isOver }, drop] = useDrop({
     accept: "sigil",
@@ -29,7 +29,7 @@ const Slot = ({
 
   const handleSigilSlotChange = (selectedOption) => {
     onSelectSubTrait(index, selectedOption.label);
-  }
+  };
 
   return (
     <div
@@ -77,7 +77,17 @@ const Slot = ({
               <h4 className={styles.sigilSlotName}>{sigil.name}</h4>
               <div className={styles.sigilSlotTrait}>T. Lvl {sigil.level}</div>
               <div className={styles.sigilSubSlot}>
-                <Select options={sigilOptions} isSearchable onChange={handleSigilSlotChange}/>
+                <Select
+                  options={sigilOptions}
+                  isSearchable
+                  onChange={handleSigilSlotChange}
+                  styles={{
+                    container: (baseStyles, state) => ({
+                      ...baseStyles,
+                      width: "100%",
+                    })
+                  }}
+                />
               </div>
             </div>
           </div>
