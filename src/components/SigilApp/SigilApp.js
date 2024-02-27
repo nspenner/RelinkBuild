@@ -13,6 +13,7 @@ const SigilApp = () => {
   const sigilOptions = [...new Set(sigilData.map((sigil) => sigil.Trait))].map(
     (trait) => ({
       label: trait,
+      value: trait
     })
   );
 
@@ -81,7 +82,7 @@ const SigilApp = () => {
         delete newTraits[traitName.name];
       } else if (trait.level <= trait.maxLevel) {
         trait.effect = trait.levels[trait.level - 1]["Effect"];
-        newTraits[trait.name] = trait;
+        newTraits[traitName.name] = trait;
       }
     });
     setTraits(newTraits);
