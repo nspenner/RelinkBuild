@@ -1,1622 +1,2202 @@
 [
- {
-   "Name": "Aegis I",
-   "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
-   "Base Level": 1,
-   "Max Level": 1
- },
- {
-   "Name": "Aegis II",
-   "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
-   "Base Level": 1,
-   "Max Level": 3
- },
- {
-   "Name": "Aegis III",
-   "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
-   "Base Level": 4,
-   "Max Level": 6
- },
- {
-   "Name": "Aegis IV",
-   "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
-   "Base Level": 7,
-   "Max Level": 10
- },
- {
-   "Name": "Aegis V",
-   "Trait": "Aegis",
-   "Sigil Effect": "Raises maximum health as a proportion of your current maximum health.",
-   "Base Level": 11,
-   "Max Level": 15
- },
- {
-   "Name": "Attack Down Resistance I",
-   "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓",
-   "Base Level": 1,
-   "Max Level": 1
- },
- {
-   "Name": "Attack Down Resistance II",
-   "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓",
-   "Base Level": 1,
-   "Max Level": 3
- },
- {
-   "Name": "Attack Down Resistance III",
-   "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓",
-   "Base Level": 4,
-   "Max Level": 7
- },
- {
-   "Name": "Attack Down Resistance IV",
-   "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓",
-   "Base Level": 7,
-   "Max Level": 12
- },
- {
-   "Name": "Attack Down Resistance V",
-   "Trait": "ATK↓ Resistance",
-   "Sigil Effect": "Recover faster from ATK↓",
-   "Base Level": 12,
-   "Max Level": 15
- },
- {
-   "Name": "Attack Power I",
-   "Trait": "ATK",
-   "Sigil Effect": "Boosts attack power.         Max Sigil Effect: T.Lvl 1, ATK +4"
- },
- {
-   "Name": "Attack Power II",
-   "Trait": "ATK",
-   "Sigil Effect": "Boosts attack power.         Max Sigil Effect: T.Lvl 3, ATK +8"
- },
- {
-   "Name": "Attack Power III",
-   "Trait": "ATK",
-   "Sigil Effect": "Boosts attack power.         Max Sigil Effect: T.Lvl 6, ATK +14"
- },
- {
-   "Name": "Attack Power IV",
-   "Trait": "ATK",
-   "Sigil Effect": "Boosts attack power.         Max Sigil Effect: T.Lvl 10, ATK +24"
- },
- {
-   "Name": "Attack Power V",
-   "Trait": "ATK",
-   "Sigil Effect": "Boosts attack power.         Max Sigil Effect: T.Lvl 15, ATK +40"
- },
- {
-   "Name": "Autorevive I",
-   "Trait": "Autorevive",
-   "Sigil Effect": "Automatically recover from critical condition. Reactivation time is           shortened based on trait level.                             Max Sigil Effect: T.Lvl 1, Ready for activation after 550 seconds."
- },
- {
-   "Name": "Autorevive II",
-   "Trait": "Autorevive",
-   "Sigil Effect": "Automatically recover from critical condition. Reactivation time is           shortened based on trait level.                             Max Sigil Effect: T.Lvl 3, Ready for activation after 500 seconds."
- },
- {
-   "Name": "Autorevive III",
-   "Trait": "Autorevive",
-   "Sigil Effect": "Automatically recover from critical condition. Reactivation time is           shortened based on trait level.                             Max Sigil Effect: T.Lvl 6, Ready for activation after 350 seconds."
- },
- {
-   "Name": "Autorevive IV",
-   "Trait": "Autorevive",
-   "Sigil Effect": "Automatically recover from critical condition. Reactivation time is           shortened based on trait level.                             Max Sigil Effect: T.Lvl 10, Ready for activation after 240 seconds."
- },
- {
-   "Name": "Autorevive V",
-   "Trait": "Autorevive",
-   "Sigil Effect": "Automatically recover from critical condition. Reactivation time is           shortened based on trait level.                             Max Sigil Effect: T.Lvl 15, Ready for activation after 170 seconds."
- },
- {
-   "Name": "Blight Resistance I",
-   "Trait": "Blight Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Blight.         Max Sigil Effect: T.Lvl 1, DMG Taken -10%"
- },
- {
-   "Name": "Blight Resistance II",
-   "Trait": "Blight Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Blight.         Max Sigil Effect: T.Lvl 3, DMG Taken -22%"
- },
- {
-   "Name": "Blight Resistance III",
-   "Trait": "Blight Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Blight.         Max Sigil Effect: T.Lvl 6, DMG Taken -35%"
- },
- {
-   "Name": "Blight Resistance IV",
-   "Trait": "Blight Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Blight.         Max Sigil Effect: T.Lvl 10, DMG Taken -50%"
- },
- {
-   "Name": "Blight Resistance V",
-   "Trait": "Blight Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Blight.         Max Sigil Effect: T.Lvl 15, DMG Taken -70%"
- },
- {
-   "Name": "Break Assassin I",
-   "Trait": "Break Assassin",
-   "Sigil Effect": "Deal more damage to foes in Break.         Max Sigil Effect: T.Lvl 1, DMG dealt +20%"
- },
- {
-   "Name": "Break Assassin II",
-   "Trait": "Break Assassin",
-   "Sigil Effect": "Deal more damage to foes in Break.         Max Sigil Effect: T.Lvl 3, DMG dealt +44%"
- },
- {
-   "Name": "Break Assassin III",
-   "Trait": "Break Assassin",
-   "Sigil Effect": "Deal more damage to foes in Break.         Max Sigil Effect: T.Lvl 6, DMG dealt +69%"
- },
- {
-   "Name": "Break Assassin IV",
-   "Trait": "Break Assassin",
-   "Sigil Effect": "Deal more damage to foes in Break.         Max Sigil Effect: T.Lvl 10, DMG dealt +100%"
- },
- {
-   "Name": "Break Assassin V",
-   "Trait": "Break Assassin",
-   "Sigil Effect": "Deal more damage to foes in Break.         Max Sigil Effect: T.Lvl 15, DMG dealt +140%"
- },
- {
-   "Name": "Burn Resistance I",
-   "Trait": "Burn Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Burn.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Burn Resistance II",
-   "Trait": "Burn Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Burn.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Burn Resistance III",
-   "Trait": "Burn Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Burn.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Burn Resistance IV",
-   "Trait": "Burn Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Burn.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Burn Resistance V",
-   "Trait": "Burn Resistance",
-   "Sigil Effect": "Reduces the amount of damage inflicted by Burn.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Butterfly's Grace",
-   "Trait": "Butterfly's Grace",
-   "Sigil Effect": "Grants more butterflies to Narmaya whenever she lands a combo finisher           or link attack.                  Max Sigil Effect: T.Lvl 15, Butterfly +1"
- },
- {
-   "Name": "Cascade I",
-   "Trait": "Cascade",
-   "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength           changes based on the attack type.                  Max Sigil Effect: T.Lvl 1, Skill cooldown -0.1%"
- },
- {
-   "Name": "Cascade II",
-   "Trait": "Cascade",
-   "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength           changes based on the attack type.                  Max Sigil Effect: T.Lvl 3, Skill cooldown -0.3%"
- },
- {
-   "Name": "Cascade III",
-   "Trait": "Cascade",
-   "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength           changes based on the attack type.                  Max Sigil Effect: T.Lvl 6, Skill cooldown -0.6%"
- },
- {
-   "Name": "Cascade IV",
-   "Trait": "Cascade",
-   "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength           changes based on the attack type.                  Max Sigil Effect: T.Lvl 10, Skill cooldown -1%"
- },
- {
-   "Name": "Cascade V",
-   "Trait": "Cascade",
-   "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength           changes based on the attack type.                  Max Sigil Effect: T.Lvl 15, Skill cooldown -1.5%"
- },
- {
-   "Name": "Charged Attack I",
-   "Trait": "Charged Attack DMG",
-   "Sigil Effect": "Boosts the power of charged attacks.         Max Sigil Effect: T.Lvl 1, DMG dealt +5%"
- },
- {
-   "Name": "Charged Attack II",
-   "Trait": "Charged Attack DMG",
-   "Sigil Effect": "Boosts the power of charged attacks.         Max Sigil Effect: T.Lvl 3, DMG dealt +11%"
- },
- {
-   "Name": "Charged Attack III",
-   "Trait": "Charged Attack DMG",
-   "Sigil Effect": "Boosts the power of charged attacks.         Max Sigil Effect: T.Lvl 6, DMG dealt +17%"
- },
- {
-   "Name": "Charged Attack IV",
-   "Trait": "Charged Attack DMG",
-   "Sigil Effect": "Boosts the power of charged attacks.         Max Sigil Effect: T.Lvl 10, DMG dealt +25%"
- },
- {
-   "Name": "Charged Attack V",
-   "Trait": "Charged Attack DMG",
-   "Sigil Effect": "Boosts the power of charged attacks.         Max Sigil Effect: T.Lvl 15, DMG dealt +35%"
- },
- {
-   "Name": "Combo Booster I",
-   "Trait": "Combo Booster",
-   "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the           next hit isn't made in time.                  Max Sigil Effect: T.Lvl 1, Boosts DMG dealt by a max of +10%."
- },
- {
-   "Name": "Combo Booster II",
-   "Trait": "Combo Booster",
-   "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the           next hit isn't made in time.                  Max Sigil Effect: T.Lvl 3, Boosts DMG dealt by a max of +22%."
- },
- {
-   "Name": "Combo Booster III",
-   "Trait": "Combo Booster",
-   "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the           next hit isn't made in time.                  Max Sigil Effect: T.Lvl 6, Boosts DMG dealt by a max of +34%."
- },
- {
-   "Name": "Combo Booster IV",
-   "Trait": "Combo Booster",
-   "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the           next hit isn't made in time.                  Max Sigil Effect: T.Lvl 10, Boosts DMG dealt by a max of +50%."
- },
- {
-   "Name": "Combo Booster V",
-   "Trait": "Combo Booster",
-   "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the           next hit isn't made in time.                  Max Sigil Effect: T.Lvl 15, Boosts DMG dealt by a max of +70%."
- },
- {
-   "Name": "Combo Finisher I",
-   "Trait": "Combo Finisher DMG",
-   "Sigil Effect": "Boosts the power of combo finishers.         Max Sigil Effect: T.Lvl 1, DMG dealt +5%"
- },
- {
-   "Name": "Combo Finisher II",
-   "Trait": "Combo Finisher DMG",
-   "Sigil Effect": "Boosts the power of combo finishers.         Max Sigil Effect: T.Lvl 3, DMG dealt +11%"
- },
- {
-   "Name": "Combo Finisher III",
-   "Trait": "Combo Finisher DMG",
-   "Sigil Effect": "Boosts the power of combo finishers.         Max Sigil Effect: T.Lvl 6, DMG dealt +17%"
- },
- {
-   "Name": "Combo Finisher IV",
-   "Trait": "Combo Finisher DMG",
-   "Sigil Effect": "Boosts the power of combo finishers.         Max Sigil Effect: T.Lvl 10, DMG dealt +25%"
- },
- {
-   "Name": "Combo Finisher V",
-   "Trait": "Combo Finisher DMG",
-   "Sigil Effect": "Boosts the power of combo finishers.         Max Sigil Effect: T.Lvl 15, DMG dealt +35%"
- },
- {
-   "Name": "Concentrated Fire I",
-   "Trait": "Concentrated Fire",
-   "Sigil Effect": "Boosts the power of ranged attacks.         Max Sigil Effect: T.Lvl 1, DMG dealt +5%"
- },
- {
-   "Name": "Concentrated Fire II",
-   "Trait": "Concentrated Fire",
-   "Sigil Effect": "Boosts the power of ranged attacks.         Max Sigil Effect: T.Lvl 3, DMG dealt +11%"
- },
- {
-   "Name": "Concentrated Fire III",
-   "Trait": "Concentrated Fire",
-   "Sigil Effect": "Boosts the power of ranged attacks.         Max Sigil Effect: T.Lvl 6, DMG dealt +17%"
- },
- {
-   "Name": "Concentrated Fire IV",
-   "Trait": "Concentrated Fire",
-   "Sigil Effect": "Boosts the power of ranged attacks.         Max Sigil Effect: T.Lvl 10, DMG dealt +25%"
- },
- {
-   "Name": "Concentrated Fire V",
-   "Trait": "Concentrated Fire",
-   "Sigil Effect": "Boosts the power of ranged attacks.         Max Sigil Effect: T.Lvl 15, DMG dealt +35%"
- },
- {
-   "Name": "Crabby Resonance",
-   "Trait": "Crabby Resonance",
-   "Sigil Effect": "Raises trait level based on wee pincers rescued. You then gain the           associated effect. Can't be sold or traded for vouchers.                             Max Sigil Effect: T.Lvl 1, Wee pincers rescued: 45\nGrants ATK           +1000"
- },
- {
-   "Name": "Critical Damage I",
-   "Trait": "Critical Hit DMG",
-   "Sigil Effect": "Boosts damage dealt by critical hits.         Max Sigil Effect: T.Lvl 1, DMG dealt +5%"
- },
- {
-   "Name": "Critical Damage II",
-   "Trait": "Critical Hit DMG",
-   "Sigil Effect": "Boosts damage dealt by critical hits.         Max Sigil Effect: T.Lvl 3, DMG dealt +11%"
- },
- {
-   "Name": "Critical Damage III",
-   "Trait": "Critical Hit DMG",
-   "Sigil Effect": "Boosts damage dealt by critical hits.         Max Sigil Effect: T.Lvl 6, DMG dealt +17%"
- },
- {
-   "Name": "Critical Damage IV",
-   "Trait": "Critical Hit DMG",
-   "Sigil Effect": "Boosts damage dealt by critical hits.         Max Sigil Effect: T.Lvl 10, DMG dealt +25%"
- },
- {
-   "Name": "Critical Damage V",
-   "Trait": "Critical Hit DMG",
-   "Sigil Effect": "Boosts damage dealt by critical hits.         Max Sigil Effect: T.Lvl 15, DMG dealt +35%"
- },
- {
-   "Name": "Critical Hit Rate I",
-   "Trait": "Critical Hit Rate",
-   "Sigil Effect": "Boosts critical hit rate.         Max Sigil Effect: T.Lvl 1, Critical hit rate +5%"
- },
- {
-   "Name": "Critical Hit Rate II",
-   "Trait": "Critical Hit Rate",
-   "Sigil Effect": "Boosts critical hit rate.         Max Sigil Effect: T.Lvl 3, Critical hit rate +7%"
- },
- {
-   "Name": "Critical Hit Rate III",
-   "Trait": "Critical Hit Rate",
-   "Sigil Effect": "Boosts critical hit rate.         Max Sigil Effect: T.Lvl 6, Critical hit rate +10%"
- },
- {
-   "Name": "Critical Hit Rate IV",
-   "Trait": "Critical Hit Rate",
-   "Sigil Effect": "Boosts critical hit rate.         Max Sigil Effect: T.Lvl 10, Critical hit rate +14%"
- },
- {
-   "Name": "Critical Hit Rate V",
-   "Trait": "Critical Hit Rate",
-   "Sigil Effect": "Boosts critical hit rate.         Max Sigil Effect: T.Lvl 15, Critical hit rate +19%"
- },
- {
-   "Name": "Damage Cap I",
-   "Trait": "DMG Cap",
-   "Sigil Effect": "Raises the damage limit of attacks.                    Max Sigil Effect: T.Lvl 1, ▢/△ attack DMG cap +3%\nSkill DMG cap +3%\nSBA DMG cap +3%"
- },
- {
-   "Name": "Damage Cap II",
-   "Trait": "DMG Cap",
-   "Sigil Effect": "Raises the damage limit of attacks.                    Max Sigil Effect: T.Lvl 3, ▢/△ attack DMG cap +9%\nSkill DMG cap +9%\nSBA DMG cap +9%"
- },
- {
-   "Name": "Damage Cap III",
-   "Trait": "DMG Cap",
-   "Sigil Effect": "Raises the damage limit of attacks.                    Max Sigil Effect: T.Lvl 6, ▢/△ attack DMG cap +18%\nSkill DMG cap +18%\nSBA DMG cap           +18%"
- },
- {
-   "Name": "Damage Cap IV",
-   "Trait": "DMG Cap",
-   "Sigil Effect": "Raises the damage limit of attacks.                    Max Sigil Effect: T.Lvl 10,           ▢/△ attack DMG cap +30%\nSkill DMG cap +30%\nSBA DMG cap           +30%"
- },
- {
-   "Name": "Damage Cap V",
-   "Trait": "DMG Cap",
-   "Sigil Effect": "Raises the damage limit of attacks.                    Max Sigil Effect: T.Lvl 15,           ▢/△ attack DMG cap +45%\nSkill DMG cap +45%\nSBA DMG cap           +45%"
- },
- {
-   "Name": "Darkflame Resistance I",
-   "Trait": "Darkflame Resistance",
-   "Sigil Effect": "Recover faster from Darkflame.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Darkflame Resistance II",
-   "Trait": "Darkflame Resistance",
-   "Sigil Effect": "Recover faster from Darkflame.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Darkflame Resistance III",
-   "Trait": "Darkflame Resistance",
-   "Sigil Effect": "Recover faster from Darkflame.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Darkflame Resistance IV",
-   "Trait": "Darkflame Resistance",
-   "Sigil Effect": "Recover faster from Darkflame.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Darkflame Resistance V",
-   "Trait": "Darkflame Resistance",
-   "Sigil Effect": "Recover faster from Darkflame.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Defense Down Resistance I",
-   "Trait": "DEF↓ Resistance",
-   "Sigil Effect": "Recover faster from DEF↓.         Max Sigil Effect: T.Lvl 1, Effect duration -10%."
- },
- {
-   "Name": "Defense Down Resistance II",
-   "Trait": "DEF↓ Resistance",
-   "Sigil Effect": "Recover faster from DEF↓.         Max Sigil Effect: T.Lvl 3, Effect duration -22%."
- },
- {
-   "Name": "Defense Down Resistance III",
-   "Trait": "DEF↓ Resistance",
-   "Sigil Effect": "Recover faster from DEF↓.         Max Sigil Effect: T.Lvl 6, Effect duration -35%."
- },
- {
-   "Name": "Defense Down Resistance IV",
-   "Trait": "DEF↓ Resistance",
-   "Sigil Effect": "Recover faster from DEF↓.         Max Sigil Effect: T.Lvl 10, Effect duration -50%."
- },
- {
-   "Name": "Defense Down Resistance V",
-   "Trait": "DEF↓ Resistance",
-   "Sigil Effect": "Recover faster from DEF↓.         Max Sigil Effect: T.Lvl 15, Effect duration -70%."
- },
- {
-   "Name": "Dizzy Resistance I",
-   "Trait": "Dizzy Resistance",
-   "Sigil Effect": "Recover faster from Dizzy.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Dizzy Resistance II",
-   "Trait": "Dizzy Resistance",
-   "Sigil Effect": "Recover faster from Dizzy.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Dizzy Resistance III",
-   "Trait": "Dizzy Resistance",
-   "Sigil Effect": "Recover faster from Dizzy.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Dizzy Resistance IV",
-   "Trait": "Dizzy Resistance",
-   "Sigil Effect": "Recover faster from Dizzy.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Dizzy Resistance V",
-   "Trait": "Dizzy Resistance",
-   "Sigil Effect": "Recover faster from Dizzy.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Dodge Payback I",
-   "Trait": "Dodge Payback",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts           attack power.                  Max Sigil Effect: T.Lvl 1, Invincibility +1 sec.\nATK +5%"
- },
- {
-   "Name": "Dodge Payback II",
-   "Trait": "Dodge Payback",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts           attack power.                  Max Sigil Effect: T.Lvl 3, Invincibility +1 sec.\nATK +9%"
- },
- {
-   "Name": "Dodge Payback III",
-   "Trait": "Dodge Payback",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts           attack power.                  Max Sigil Effect: T.Lvl 6, Invincibility +1 sec.\nATK +13%"
- },
- {
-   "Name": "Dodge Payback IV",
-   "Trait": "Dodge Payback",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts           attack power.                  Max Sigil Effect: T.Lvl 10, Invincibility +1 sec.\nATK +17%"
- },
- {
-   "Name": "Dodge Payback V",
-   "Trait": "Dodge Payback",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts           attack power.                  Max Sigil Effect: T.Lvl 15, Invincibility +1 sec.\nATK +22%"
- },
- {
-   "Name": "Dragonslayer's Dominance",
-   "Trait": "Dragonslayer's Dominance",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Drain I",
-   "Trait": "Drain",
-   "Sigil Effect": "Recover health based on the damage dealt to a foe.         Max Sigil Effect: T.Lvl 1, Recover 0.2% of DMG dealt as HP"
- },
- {
-   "Name": "Drain II",
-   "Trait": "Drain",
-   "Sigil Effect": "Recover health based on the damage dealt to a foe.         Max Sigil Effect: T.Lvl 3, Recover 0.6% of DMG dealt as HP"
- },
- {
-   "Name": "Drain III",
-   "Trait": "Drain",
-   "Sigil Effect": "Recover health based on the damage dealt to a foe.         Max Sigil Effect: T.Lvl 6, Recover 1.1% of DMG dealt as HP"
- },
- {
-   "Name": "Drain IV",
-   "Trait": "Drain",
-   "Sigil Effect": "Recover health based on the damage dealt to a foe.         Max Sigil Effect: T.Lvl 10, Recover 1.5% of DMG dealt as HP"
- },
- {
-   "Name": "Drain V",
-   "Trait": "Drain",
-   "Sigil Effect": "Recover health based on the damage dealt to a foe.         Max Sigil Effect: T.Lvl 15, Recover 2% of DMG dealt as HP"
- },
- {
-   "Name": "Ebony's Presence",
-   "Trait": "Ebony's Presence",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Enmity I",
-   "Trait": "Enmity",
-   "Sigil Effect": "Boosts attack based on how low your health is.         Max Sigil Effect: T.Lvl 1, Boosts ATK by a max of +10%"
- },
- {
-   "Name": "Enmity II",
-   "Trait": "Enmity",
-   "Sigil Effect": "Boosts attack based on how low your health is.         Max Sigil Effect: T.Lvl 3, Boosts ATK by a max of +16%"
- },
- {
-   "Name": "Enmity III",
-   "Trait": "Enmity",
-   "Sigil Effect": "Boosts attack based on how low your health is.         Max Sigil Effect: T.Lvl 6, Boosts ATK by a max of +34%"
- },
- {
-   "Name": "Enmity IV",
-   "Trait": "Enmity",
-   "Sigil Effect": "Boosts attack based on how low your health is.         Max Sigil Effect: T.Lvl 10, Boosts ATK by a max of +50%"
- },
- {
-   "Name": "Enmity V",
-   "Trait": "Enmity",
-   "Sigil Effect": "Boosts attack based on how low your health is.         Max Sigil Effect: T.Lvl 15, Boosts ATK by a max of +70%"
- },
- {
-   "Name": "Eternal Rage's Mettle",
-   "Trait": "Eternal Rage's Mettle",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Exploiter I",
-   "Trait": "Weak Point DMG",
-   "Sigil Effect": "Boosts damage against weak points and attacks from behind.                    Max Sigil Effect: T.Lvl 1, DMG dealt to weak points +4%\nBack           attack DMG +4%"
- },
- {
-   "Name": "Exploiter II",
-   "Trait": "Weak Point DMG",
-   "Sigil Effect": "Boosts damage against weak points and attacks from behind.                    Max Sigil Effect: T.Lvl 3, DMG dealt to weak points +10%\nBack           attack DMG +10%"
- },
- {
-   "Name": "Exploiter III",
-   "Trait": "Weak Point DMG",
-   "Sigil Effect": "Boosts damage against weak points and attacks from behind.                    Max Sigil Effect: T.Lvl 6, DMG dealt to weak points +18%\nBack           attack DMG +18%"
- },
- {
-   "Name": "Exploiter IV",
-   "Trait": "Weak Point DMG",
-   "Sigil Effect": "Boosts damage against weak points and attacks from behind.                    Max Sigil Effect: T.Lvl 10, DMG dealt to weak points +26%\nBack           attack DMG +26%"
- },
- {
-   "Name": "Exploiter V",
-   "Trait": "Weak Point DMG",
-   "Sigil Effect": "Boosts damage against weak points and attacks from behind.                    Max Sigil Effect: T.Lvl 15, DMG dealt to weak points +36%\nBack           attack DMG +36%"
- },
- {
-   "Name": "Fast Learner I",
-   "Trait": "Fast Learner",
-   "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.                  Max Sigil Effect: T.Lvl 1, EXP +1%"
- },
- {
-   "Name": "Fast Learner II",
-   "Trait": "Fast Learner",
-   "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.                  Max Sigil Effect: T.Lvl 3, EXP +3%"
- },
- {
-   "Name": "Fast Learner III",
-   "Trait": "Fast Learner",
-   "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.                  Max Sigil Effect: T.Lvl 6, EXP +6%"
- },
- {
-   "Name": "Fast Learner IV",
-   "Trait": "Fast Learner",
-   "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.                  Max Sigil Effect: T.Lvl 10, EXP +10%"
- },
- {
-   "Name": "Fast Learner V",
-   "Trait": "Fast Learner",
-   "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.                  Max Sigil Effect: T.Lvl 15, EXP +15%"
- },
- {
-   "Name": "Fearless Drive",
-   "Trait": "Fearless Drive",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Firm Stance I",
-   "Trait": "Firm Stance",
-   "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.                  Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Firm Stance II",
-   "Trait": "Firm Stance",
-   "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.                  Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Firm Stance III",
-   "Trait": "Firm Stance",
-   "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.                  Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Firm Stance IV",
-   "Trait": "Firm Stance",
-   "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.                  Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Firm Stance V",
-   "Trait": "Firm Stance",
-   "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.                  Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Founder's Strategy",
-   "Trait": "Founder's Strategy",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Garrison I",
-   "Trait": "Garrison",
-   "Sigil Effect": "Boosts defense based on how low your health is.         Max Sigil Effect: T.Lvl 1, Boosts DEF by a max of +4%"
- },
- {
-   "Name": "Garrison II",
-   "Trait": "Garrison",
-   "Sigil Effect": "Boosts defense based on how low your health is.         Max Sigil Effect: T.Lvl 3, Boosts DEF by a max of +11%"
- },
- {
-   "Name": "Garrison III",
-   "Trait": "Garrison",
-   "Sigil Effect": "Boosts defense based on how low your health is.         Max Sigil Effect: T.Lvl 6, Boosts DEF by a max of +19%"
- },
- {
-   "Name": "Garrison IV",
-   "Trait": "Garrison",
-   "Sigil Effect": "Boosts defense based on how low your health is.         Max Sigil Effect: T.Lvl 10, Boosts DEF by a max of +27%"
- },
- {
-   "Name": "Garrison V",
-   "Trait": "Garrison",
-   "Sigil Effect": "Boosts defense based on how low your health is.         Max Sigil Effect: T.Lvl 15, Boosts DEF by a max of +35%"
- },
- {
-   "Name": "Glaciate Resistance I",
-   "Trait": "Glaciate Resistance",
-   "Sigil Effect": "Recover faster from Frostbite and Glaciate.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Glaciate Resistance II",
-   "Trait": "Glaciate Resistance",
-   "Sigil Effect": "Recover faster from Frostbite and Glaciate.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Glaciate Resistance III",
-   "Trait": "Glaciate Resistance",
-   "Sigil Effect": "Recover faster from Frostbite and Glaciate.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Glaciate Resistance IV",
-   "Trait": "Glaciate Resistance",
-   "Sigil Effect": "Recover faster from Frostbite and Glaciate.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Glaciate Resistance V",
-   "Trait": "Glaciate Resistance",
-   "Sigil Effect": "Recover faster from Frostbite and Glaciate.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Guard Payback I",
-   "Trait": "Guard Payback",
-   "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and           temporarily boosts attack power.                  Max Sigil Effect: T.Lvl 1, Stun gauge fill +10%\nATK +5%"
- },
- {
-   "Name": "Guard Payback II",
-   "Trait": "Guard Payback",
-   "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and           temporarily boosts attack power.                  Max Sigil Effect: T.Lvl 3, Stun gauge fill +22%\nATK +11%"
- },
- {
-   "Name": "Guard Payback III",
-   "Trait": "Guard Payback",
-   "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and           temporarily boosts attack power.                  Max Sigil Effect: T.Lvl 6, Stun gauge fill +34%\nATK +17%"
- },
- {
-   "Name": "Guard Payback IV",
-   "Trait": "Guard Payback",
-   "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and           temporarily boosts attack power.                  Max Sigil Effect: T.Lvl 10, Stun gauge fill +50%\nATK +25%"
- },
- {
-   "Name": "Guard Payback V",
-   "Trait": "Guard Payback",
-   "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and           temporarily boosts attack power.                  Max Sigil Effect: T.Lvl 15, Stun gauge fill +70%\nATK +35%"
- },
- {
-   "Name": "Guardian's Conviction",
-   "Trait": "Guardian's Conviction",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Guts I",
-   "Trait": "Guts",
-   "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based           on trait level.                             Max Sigil Effect: T.Lvl 1, Ready for activation after 600 seconds."
- },
- {
-   "Name": "Guts II",
-   "Trait": "Guts",
-   "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based           on trait level.                             Max Sigil Effect: T.Lvl 3, Ready for activation after 500 seconds."
- },
- {
-   "Name": "Guts III",
-   "Trait": "Guts",
-   "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based           on trait level.                             Max Sigil Effect: T.Lvl 6, Ready for activation after 350 seconds."
- },
- {
-   "Name": "Guts IV",
-   "Trait": "Guts",
-   "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based           on trait level.                             Max Sigil Effect: T.Lvl 10, Ready for activation after 240 seconds."
- },
- {
-   "Name": "Guts V",
-   "Trait": "Guts",
-   "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based           on trait level.                             Max Sigil Effect: T.Lvl 15, Ready for activation after 170 seconds."
- },
- {
-   "Name": "Health I",
-   "Trait": "HP",
-   "Sigil Effect": "Boosts base health.         Max Sigil Effect: T.Lvl 1, HP +200"
- },
- {
-   "Name": "Health II",
-   "Trait": "HP",
-   "Sigil Effect": "Boosts base health.         Max Sigil Effect: T.Lvl 3, HP +400"
- },
- {
-   "Name": "Health III",
-   "Trait": "HP",
-   "Sigil Effect": "Boosts base health.         Max Sigil Effect: T.Lvl 6, HP +800"
- },
- {
-   "Name": "Health IV",
-   "Trait": "HP",
-   "Sigil Effect": "Boosts base health.         Max Sigil Effect: T.Lvl 10, HP +1600"
- },
- {
-   "Name": "Health V",
-   "Trait": "HP",
-   "Sigil Effect": "Boosts base health.         Max Sigil Effect: T.Lvl 15, HP +2600"
- },
- {
-   "Name": "Held Under Resistance I",
-   "Trait": "Held Under Resistance",
-   "Sigil Effect": "Recover faster from Held Under.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Held Under Resistance II",
-   "Trait": "Held Under Resistance",
-   "Sigil Effect": "Recover faster from Held Under.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Held Under Resistance III",
-   "Trait": "Held Under Resistance",
-   "Sigil Effect": "Recover faster from Held Under.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Held Under Resistance IV",
-   "Trait": "Held Under Resistance",
-   "Sigil Effect": "Recover faster from Held Under.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Held Under Resistance V",
-   "Trait": "Held Under Resistance",
-   "Sigil Effect": "Recover faster from Held Under.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Helmsman's Navigation",
-   "Trait": "Helmsman's Navigation",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Hero's Creed",
-   "Trait": "Hero's Creed",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Holy Knight's Luster",
-   "Trait": "Holy Knight's Luster",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Improved Dodge",
-   "Trait": "Improved Dodge",
-   "Sigil Effect": "Extends the window for foe attacks to miss during a dodge. Allows you           to perform more dodges in a row.                             Max Sigil Effect: T.Lvl 15, Dodge count +4\nEnhanced dodging           ability"
- },
- {
-   "Name": "Improved Guard I",
-   "Trait": "Improved Guard",
-   "Sigil Effect": "Makes your guard harder to break.         Max Sigil Effect: T.Lvl 1, Foe's ability to cause guard break -5%"
- },
- {
-   "Name": "Improved Guard II",
-   "Trait": "Improved Guard",
-   "Sigil Effect": "Makes your guard harder to break.                    Max Sigil Effect: T.Lvl 3, Foe's ability to cause guard break -11%"
- },
- {
-   "Name": "Improved Guard III",
-   "Trait": "Improved Guard",
-   "Sigil Effect": "Makes your guard harder to break.                    Max Sigil Effect: T.Lvl 6, Foe's ability to cause guard break -17%"
- },
- {
-   "Name": "Improved Guard IV",
-   "Trait": "Improved Guard",
-   "Sigil Effect": "Makes your guard harder to break.                    Max Sigil Effect: T.Lvl 10, Foe's ability to cause guard break -25%"
- },
- {
-   "Name": "Improved Guard V",
-   "Trait": "Improved Guard",
-   "Sigil Effect": "Makes your guard harder to break.                    Max Sigil Effect: T.Lvl 15, Foe's ability to cause guard break -35%"
- },
- {
-   "Name": "Improved Healing I",
-   "Trait": "Improved Healing",
-   "Sigil Effect": "Raises the healing cap and healing amount of healing skills.                    Max Sigil Effect: T.Lvl 1, Healing amount +5%\nHealing cap +5%"
- },
- {
-   "Name": "Improved Healing II",
-   "Trait": "Improved Healing",
-   "Sigil Effect": "Raises the healing cap and healing amount of healing skills.                    Max Sigil Effect: T.Lvl 3, Healing amount +11%\nHealing cap +11%"
- },
- {
-   "Name": "Improved Healing III",
-   "Trait": "Improved Healing",
-   "Sigil Effect": "Raises the healing cap and healing amount of healing skills.                    Max Sigil Effect: T.Lvl 6, Healing amount +17%\nHealing cap +17%"
- },
- {
-   "Name": "Improved Healing IV",
-   "Trait": "Improved Healing",
-   "Sigil Effect": "Raises the healing cap and healing amount of healing skills.                    Max Sigil Effect: T.Lvl 10, Healing amount +25%\nHealing cap +25%"
- },
- {
-   "Name": "Improved Healing V",
-   "Trait": "Improved Healing",
-   "Sigil Effect": "Raises the healing cap and healing amount of healing skills.                    Max Sigil Effect: T.Lvl 15, Healing amount +35%\nHealing cap +35%"
- },
- {
-   "Name": "Injury to Insult I",
-   "Trait": "Injury to Insult",
-   "Sigil Effect": "Deal more damage to foes inflicted with status ailments.         Max Sigil Effect: T.Lvl 1, DMG dealt +5%"
- },
- {
-   "Name": "Injury to Insult II",
-   "Trait": "Injury to Insult",
-   "Sigil Effect": "Deal more damage to foes inflicted with status ailments.         Max Sigil Effect: T.Lvl 3, DMG dealt +9%"
- },
- {
-   "Name": "Injury to Insult III",
-   "Trait": "Injury to Insult",
-   "Sigil Effect": "Deal more damage to foes inflicted with status ailments.         Max Sigil Effect: T.Lvl 6, DMG dealt +13%"
- },
- {
-   "Name": "Injury to Insult IV",
-   "Trait": "Injury to Insult",
-   "Sigil Effect": "Deal more damage to foes inflicted with status ailments.         Max Sigil Effect: T.Lvl 10, DMG dealt +17%"
- },
- {
-   "Name": "Injury to Insult V",
-   "Trait": "Injury to Insult",
-   "Sigil Effect": "Deal more damage to foes inflicted with status ailments.         Max Sigil Effect: T.Lvl 15, DMG dealt +22%"
- },
- {
-   "Name": "Life on the Line I",
-   "Trait": "Life on the Line",
-   "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your           health.                             Max Sigil Effect: T.Lvl 1, ATK +5%\nHealing from allies has no           effect."
- },
- {
-   "Name": "Life on the Line II",
-   "Trait": "Life on the Line",
-   "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your           health.                             Max Sigil Effect: T.Lvl 3, ATK +11%\nHealing from allies has no           effect."
- },
- {
-   "Name": "Life on the Line III",
-   "Trait": "Life on the Line",
-   "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your           health.                             Max Sigil Effect: T.Lvl 6, ATK +17%\nHealing from allies has no           effect."
- },
- {
-   "Name": "Life on the Line IV",
-   "Trait": "Life on the Line",
-   "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your           health.                             Max Sigil Effect: T.Lvl 10, ATK +25%\nHealing from allies has no           effect."
- },
- {
-   "Name": "Life on the Line V",
-   "Trait": "Life on the Line",
-   "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your           health.                             Max Sigil Effect: T.Lvl 15, ATK +35%\nHealing from allies has no           effect."
- },
- {
-   "Name": "Linked Together I",
-   "Trait": "Linked Together",
-   "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the           amount of link level gained.                             Max Sigil Effect: T.Lvl 1, Link lvl gain +5%\nChain burst DMG           +2%-5%\nLink attack DMG +10%/ SBA DMG +5%"
- },
- {
-   "Name": "Linked Together II",
-   "Trait": "Linked Together",
-   "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the           amount of link level gained.                             Max Sigil Effect: T.Lvl 3, Link lvl gain +11%\nChain burst DMG           +4.4%-11%\nLink attack DMG +22%/ SBA DMG +11%"
- },
- {
-   "Name": "Linked Together III",
-   "Trait": "Linked Together",
-   "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the           amount of link level gained.                             Max Sigil Effect: T.Lvl 6, Link lvl gain +17%\nChain burst DMG           +6.8%-17%\nLink attack DMG +34%/ SBA DMG +17%"
- },
- {
-   "Name": "Linked Together IV",
-   "Trait": "Linked Together",
-   "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the           amount of link level gained.                             Max Sigil Effect: T.Lvl 10, Link lvl gain +25%\nChain burst DMG           +10%-25%\nLink attack DMG +50%/ SBA DMG +25%"
- },
- {
-   "Name": "Linked Together V",
-   "Trait": "Linked Together",
-   "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the           amount of link level gained.                             Max Sigil Effect: T.Lvl 15, Link lvl gain +35%\nChain burst DMG           +14%-35%\nLink attack DMG +70%/ SBA DMG +35%"
- },
- {
-   "Name": "Lord's Procession",
-   "Trait": "Lord's Procession",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Low Profile I",
-   "Trait": "Low Profile",
-   "Sigil Effect": "Foes are less likely to target you.         Max Sigil Effect: T.Lvl 1, Hostility -3"
- },
- {
-   "Name": "Low Profile II",
-   "Trait": "Low Profile",
-   "Sigil Effect": "Foes are less likely to target you.         Max Sigil Effect: T.Lvl 3, Hostility -7"
- },
- {
-   "Name": "Low Profile III",
-   "Trait": "Low Profile",
-   "Sigil Effect": "Foes are less likely to target you.         Max Sigil Effect: T.Lvl 6, Hostility -15"
- },
- {
-   "Name": "Low Profile IV",
-   "Trait": "Low Profile",
-   "Sigil Effect": "Foes are less likely to target you.         Max Sigil Effect: T.Lvl 10, Hostility -25"
- },
- {
-   "Name": "Low Profile V",
-   "Trait": "Low Profile",
-   "Sigil Effect": "Foes are less likely to target you.         Max Sigil Effect: T.Lvl 15, Hostility -37"
- },
- {
-   "Name": "Lucky Charge I",
-   "Trait": "Lucky Charge",
-   "Sigil Effect": "Boosts the critical hit of charged attacks.         Max Sigil Effect: T.Lvl 1, Critical hit rate +6%"
- },
- {
-   "Name": "Lucky Charge II",
-   "Trait": "Lucky Charge",
-   "Sigil Effect": "Boosts the critical hit of charged attacks.         Max Sigil Effect: T.Lvl 3, Critical hit rate +18%"
- },
- {
-   "Name": "Lucky Charge III",
-   "Trait": "Lucky Charge",
-   "Sigil Effect": "Boosts the critical hit of charged attacks.         Max Sigil Effect: T.Lvl 6, Critical hit rate +30%"
- },
- {
-   "Name": "Lucky Charge IV",
-   "Trait": "Lucky Charge",
-   "Sigil Effect": "Boosts the critical hit of charged attacks.         Max Sigil Effect: T.Lvl 10, Critical hit rate +42%"
- },
- {
-   "Name": "Lucky Charge V",
-   "Trait": "Lucky Charge",
-   "Sigil Effect": "Boosts the critical hit of charged attacks.         Max Sigil Effect: T.Lvl 15, Critical hit rate +54%"
- },
- {
-   "Name": "Mage's Aspiration",
-   "Trait": "Mage's Aspiration",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Nimble Defense I",
-   "Trait": "Nimble Defense",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts           defense and restores a small bit of health.                             Max Sigil Effect: T.Lvl 1, Invincibility +1 sec.\nDef +3%/ Recover           1.5% of max HP"
- },
- {
-   "Name": "Nimble Defense II",
-   "Trait": "Nimble Defense",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts           defense and restores a small bit of health.                             Max Sigil Effect: T.Lvl 3, Invincibility +1 sec.\nDef +4.4%/           Recover 2.2% of max HP"
- },
- {
-   "Name": "Nimble Defense III",
-   "Trait": "Nimble Defense",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts           defense and restores a small bit of health.                             Max Sigil Effect: T.Lvl 6, Invincibility +1 sec.\nDef +6.8%/           Recover 3.4% of max HP"
- },
- {
-   "Name": "Nimble Defense IV",
-   "Trait": "Nimble Defense",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts           defense and restores a small bit of health.                             Max Sigil Effect: T.Lvl 10, Invincibility +1 sec.\nDef +10%/           Recover 5% of max HP"
- },
- {
-   "Name": "Nimble Defense V",
-   "Trait": "Nimble Defense",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts           defense and restores a small bit of health.                             Max Sigil Effect: T.Lvl 15, Invincibility +2 sec.\nDef +14%/           Recover 7% of max HP"
- },
- {
-   "Name": "Nimble Onslaught I",
-   "Trait": "Nimble Onslaught",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed           of your SBA gauge and shortens skill cooldowns.                             Max Sigil Effect: T.Lvl 1, Invincibility +1 sec.\nSBA gauge gain           +0.5%/ Skill cooldown -0.5%"
- },
- {
-   "Name": "Nimble Onslaught II",
-   "Trait": "Nimble Onslaught",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed           of your SBA gauge and shortens skill cooldowns.                             Max Sigil Effect: T.Lvl 3, Invincibility +1 sec.\nSBA gauge gain           +1.1%/ Skill cooldown -1.1%"
- },
- {
-   "Name": "Nimble Onslaught III",
-   "Trait": "Nimble Onslaught",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed           of your SBA gauge and shortens skill cooldowns.                             Max Sigil Effect: T.Lvl 6, Invincibility +1 sec.\nSBA gauge gain           +1.8%/ Skill cooldown -1.8%"
- },
- {
-   "Name": "Nimble Onslaught IV",
-   "Trait": "Nimble Onslaught",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed           of your SBA gauge and shortens skill cooldowns.                             Max Sigil Effect: T.Lvl 10, Invincibility +1 sec.\nSBA gauge gain           +2.5%/ Skill cooldown -2.5%"
- },
- {
-   "Name": "Nimble Onslaught V",
-   "Trait": "Nimble Onslaught",
-   "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed           of your SBA gauge and shortens skill cooldowns.                             Max Sigil Effect: T.Lvl 15, Invincibility +2 sec.\nSBA gauge gain           +3.5%/ Skill cooldown -3.5%"
- },
- {
-   "Name": "Overdrive Assassin I",
-   "Trait": "Overdrive Assassin",
-   "Sigil Effect": "Deal more damage to foes in Overdrive.         Max Sigil Effect: T.Lvl 1, DMG dealt +10%"
- },
- {
-   "Name": "Overdrive Assassin II",
-   "Trait": "Overdrive Assassin",
-   "Sigil Effect": "Deal more damage to foes in Overdrive.         Max Sigil Effect: T.Lvl 3, DMG dealt +22%"
- },
- {
-   "Name": "Overdrive Assassin III",
-   "Trait": "Overdrive Assassin",
-   "Sigil Effect": "Deal more damage to foes in Overdrive.         Max Sigil Effect: T.Lvl 6, DMG dealt +35%"
- },
- {
-   "Name": "Overdrive Assassin IV",
-   "Trait": "Overdrive Assassin",
-   "Sigil Effect": "Deal more damage to foes in Overdrive.         Max Sigil Effect: T.Lvl 10, DMG dealt +50%"
- },
- {
-   "Name": "Overdrive Assassin V",
-   "Trait": "Overdrive Assassin",
-   "Sigil Effect": "Deal more damage to foes in Overdrive.         Max Sigil Effect: T.Lvl 15, DMG dealt +70%"
- },
- {
-   "Name": "Paralysis Resistance I",
-   "Trait": "Paralysis Resistance",
-   "Sigil Effect": "Recover faster from Paralysis.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Paralysis Resistance II",
-   "Trait": "Paralysis Resistance",
-   "Sigil Effect": "Recover faster from Paralysis.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Paralysis Resistance III",
-   "Trait": "Paralysis Resistance",
-   "Sigil Effect": "Recover faster from Paralysis.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Paralysis Resistance IV",
-   "Trait": "Paralysis Resistance",
-   "Sigil Effect": "Recover faster from Paralysis.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Paralysis Resistance V",
-   "Trait": "Paralysis Resistance",
-   "Sigil Effect": "Recover faster from Paralysis.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Path to Mastery I",
-   "Trait": "Path to Mastery",
-   "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply           to online players in your party.                  Max Sigil Effect: T.Lvl 1, MSP + 2%"
- },
- {
-   "Name": "Path to Mastery II",
-   "Trait": "Path to Mastery",
-   "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply           to online players in your party.                  Max Sigil Effect: T.Lvl 3, MSP +4%"
- },
- {
-   "Name": "Path to Mastery III",
-   "Trait": "Path to Mastery",
-   "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply           to online players in your party.                  Max Sigil Effect: T.Lvl 6, MSP + 7%"
- },
- {
-   "Name": "Path to Mastery IV",
-   "Trait": "Path to Mastery",
-   "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply           to online players in your party.                  Max Sigil Effect: T.Lvl 10, MSP + 11%"
- },
- {
-   "Name": "Path to Mastery V",
-   "Trait": "Path to Mastery",
-   "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply           to online players in your party.                  Max Sigil Effect: T.Lvl 15, MSP + 15%"
- },
- {
-   "Name": "Phantasm's Concord",
-   "Trait": "Phantasm's Concord",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Potion Hoarder I",
-   "Trait": "Potion Hoarder",
-   "Sigil Effect": "Increases the stock of recovery items.                    Max Sigil Effect: T.Lvl 1, Green potion +0, blue potion +1, mega           potion +0, revival potion +0"
- },
- {
-   "Name": "Potion Hoarder II",
-   "Trait": "Potion Hoarder",
-   "Sigil Effect": "Increases the stock of recovery items.                    Max Sigil Effect: T.Lvl 3, Green potion +1, blue potion +1, mega           potion +1, revival potion +0"
- },
- {
-   "Name": "Potion Hoarder III",
-   "Trait": "Potion Hoarder",
-   "Sigil Effect": "Increases the stock of recovery items.                    Max Sigil Effect: T.Lvl 6, Green potion +1, blue potion +2, mega           potion +2, revival potion +1"
- },
- {
-   "Name": "Potion Hoarder IV",
-   "Trait": "Potion Hoarder",
-   "Sigil Effect": "Increases the stock of recovery items.                    Max Sigil Effect: T.Lvl 10, Green potion +2, blue potion +4, mega           potion +3, revival potion +1"
- },
- {
-   "Name": "Potion Hoarder V",
-   "Trait": "Potion Hoarder",
-   "Sigil Effect": "Increases the stock of recovery items.                    Max Sigil Effect: T.Lvl 15, Green potion +3, blue potion +5, mega           potion +5, revival potion +2"
- },
- {
-   "Name": "Precise Resilience I",
-   "Trait": "Precise Resilience",
-   "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a           perfect guard.                  Max Sigil Effect: T.Lvl 1, DEF +5%\nRecover 3.5% of max HP"
- },
- {
-   "Name": "Precise Resilience II",
-   "Trait": "Precise Resilience",
-   "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a           perfect guard.                  Max Sigil Effect: T.Lvl 3, DEF +9%\nRecover 4.5% of max HP"
- },
- {
-   "Name": "Precise Resilience III",
-   "Trait": "Precise Resilience",
-   "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a           perfect guard.                  Max Sigil Effect: T.Lvl 6, DEF +13%\nRecover 6% of max HP"
- },
- {
-   "Name": "Precise Resilience IV",
-   "Trait": "Precise Resilience",
-   "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a           perfect guard.                  Max Sigil Effect: T.Lvl 10, DEF +17%\nRecover 8% of max HP"
- },
- {
-   "Name": "Precise Resilience V",
-   "Trait": "Precise Resilience",
-   "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a           perfect guard.                  Max Sigil Effect: T.Lvl 15, DEF +22%\nRecover 10.5% of max HP"
- },
- {
-   "Name": "Precise Wrath I",
-   "Trait": "Precise Wrath",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns           after a perfect guard.                             Max Sigil Effect: T.Lvl 1, SBA gauge gain +0.5%\nSkill cooldown           -0.5%"
- },
- {
-   "Name": "Precise Wrath II",
-   "Trait": "Precise Wrath",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns           after a perfect guard.                             Max Sigil Effect: T.Lvl 3, SBA gauge gain +1.1%\nSkill cooldown           -1.1%"
- },
- {
-   "Name": "Precise Wrath III",
-   "Trait": "Precise Wrath",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns           after a perfect guard.                             Max Sigil Effect: T.Lvl 6, SBA gauge gain +1.8%\nSkill cooldown           -1.8%"
- },
- {
-   "Name": "Precise Wrath IV",
-   "Trait": "Precise Wrath",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns           after a perfect guard.                             Max Sigil Effect: T.Lvl 10, SBA gauge gain +2.5%\nSkill cooldown           -2.5%"
- },
- {
-   "Name": "Precise Wrath V",
-   "Trait": "Precise Wrath",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns           after a perfect guard.                             Max Sigil Effect: T.Lvl 15, SBA gauge gain +3.5%\nSkill cooldown           -3.5%"
- },
- {
-   "Name": "Provoke I",
-   "Trait": "Provoke",
-   "Sigil Effect": "Foes are more likely to target you.         Max Sigil Effect: T.Lvl 1, Hostility +3"
- },
- {
-   "Name": "Provoke II",
-   "Trait": "Provoke",
-   "Sigil Effect": "Foes are more likely to target you.         Max Sigil Effect: T.Lvl 3, Hostility +7"
- },
- {
-   "Name": "Provoke III",
-   "Trait": "Provoke",
-   "Sigil Effect": "Foes are more likely to target you.         Max Sigil Effect: T.Lvl 6, Hostility +15"
- },
- {
-   "Name": "Provoke IV",
-   "Trait": "Provoke",
-   "Sigil Effect": "Foes are more likely to target you.         Max Sigil Effect: T.Lvl 10, Hostility +25"
- },
- {
-   "Name": "Provoke V",
-   "Trait": "Provoke",
-   "Sigil Effect": "Foes are more likely to target you.         Max Sigil Effect: T.Lvl 15, Hostility +37"
- },
- {
-   "Name": "Quick Charge I",
-   "Trait": "Quick Charge",
-   "Sigil Effect": "Charged attacks charge faster. Boosts attack power.         Max Sigil Effect: T.Lvl 1, Charge time -3%\nATK +2%"
- },
- {
-   "Name": "Quick Charge II",
-   "Trait": "Quick Charge",
-   "Sigil Effect": "Charged attacks charge faster. Boosts attack power.         Max Sigil Effect: T.Lvl 3, Charge time -6.6%\nATK +4.4%"
- },
- {
-   "Name": "Quick Charge III",
-   "Trait": "Quick Charge",
-   "Sigil Effect": "Charged attacks charge faster. Boosts attack power.         Max Sigil Effect: T.Lvl 6, Charge time -10.2%\nATK +6.8%"
- },
- {
-   "Name": "Quick Charge IV",
-   "Trait": "Quick Charge",
-   "Sigil Effect": "Charged attacks charge faster. Boosts attack power.         Max Sigil Effect: T.Lvl 10, Charge time -15%\nATK +10%"
- },
- {
-   "Name": "Quick Charge V",
-   "Trait": "Quick Charge",
-   "Sigil Effect": "Charged attacks charge faster. Boosts attack power.         Max Sigil Effect: T.Lvl 15, Charge time -21%\nATK +14%"
- },
- {
-   "Name": "Quick Cooldown I",
-   "Trait": "Quick Cooldown",
-   "Sigil Effect": "Shortens skill cooldowns.         Max Sigil Effect: T.Lvl 1, Skill cooldown -1%"
- },
- {
-   "Name": "Quick Cooldown II",
-   "Trait": "Quick Cooldown",
-   "Sigil Effect": "Shortens skill cooldowns.         Max Sigil Effect: T.Lvl 3, Skill cooldown -3%"
- },
- {
-   "Name": "Quick Cooldown III",
-   "Trait": "Quick Cooldown",
-   "Sigil Effect": "Shortens skill cooldowns.         Max Sigil Effect: T.Lvl 6, Skill cooldown -5.2%"
- },
- {
-   "Name": "Quick Cooldown IV",
-   "Trait": "Quick Cooldown",
-   "Sigil Effect": "Shortens skill cooldowns.         Max Sigil Effect: T.Lvl 10, Skill cooldown -7.5%"
- },
- {
-   "Name": "Quick Cooldown V",
-   "Trait": "Quick Cooldown",
-   "Sigil Effect": "Shortens skill cooldowns.         Max Sigil Effect: T.Lvl 15, Skill cooldown -10%"
- },
- {
-   "Name": "Regen I",
-   "Trait": "Regen",
-   "Sigil Effect": "Automatically recover health over time.         Max Sigil Effect: T.Lvl 1, Recover 0.2% of your max HP"
- },
- {
-   "Name": "Regen II",
-   "Trait": "Regen",
-   "Sigil Effect": "Automatically recover health over time.         Max Sigil Effect: T.Lvl 3, Recover 0.6% of your max HP"
- },
- {
-   "Name": "Regen III",
-   "Trait": "Regen",
-   "Sigil Effect": "Automatically recover health over time.         Max Sigil Effect: T.Lvl 6, Recover 1.1% of your max HP"
- },
- {
-   "Name": "Regen IV",
-   "Trait": "Regen",
-   "Sigil Effect": "Automatically recover health over time.         Max Sigil Effect: T.Lvl 10, Recover 1.5% of your max HP"
- },
- {
-   "Name": "Regen V",
-   "Trait": "Regen",
-   "Sigil Effect": "Automatically recover health over time.         Max Sigil Effect: T.Lvl 15, Recover 2% of your max HP"
- },
- {
-   "Name": "Rose's Blooming",
-   "Trait": "Rose's Blooming",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Rupie Tycoon I",
-   "Trait": "Rupie Tycoon",
-   "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your           party.                  Max Sigil Effect: T.Lvl 1, Rupies +2%"
- },
- {
-   "Name": "Rupie Tycoon II",
-   "Trait": "Rupie Tycoon",
-   "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your           party.                  Max Sigil Effect: T.Lvl 3, Rupies +6%"
- },
- {
-   "Name": "Rupie Tycoon III",
-   "Trait": "Rupie Tycoon",
-   "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your           party.                  Max Sigil Effect: T.Lvl 6, Rupies +12%"
- },
- {
-   "Name": "Rupie Tycoon IV",
-   "Trait": "Rupie Tycoon",
-   "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your           party.                  Max Sigil Effect: T.Lvl 10, Rupies +20%"
- },
- {
-   "Name": "Rupie Tycoon V",
-   "Trait": "Rupie Tycoon",
-   "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your           party.                  Max Sigil Effect: T.Lvl 15, Rupies +30%"
- },
- {
-   "Name": "Sandtomb Resistance I",
-   "Trait": "Sandtomb Resistance",
-   "Sigil Effect": "Recover faster from Sandtomb.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Sandtomb Resistance II",
-   "Trait": "Sandtomb Resistance",
-   "Sigil Effect": "Recover faster from Sandtomb.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Sandtomb Resistance III",
-   "Trait": "Sandtomb Resistance",
-   "Sigil Effect": "Recover faster from Sandtomb.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Sandtomb Resistance IV",
-   "Trait": "Sandtomb Resistance",
-   "Sigil Effect": "Recover faster from Sandtomb.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Sandtomb Resistance V",
-   "Trait": "Sandtomb Resistance",
-   "Sigil Effect": "Recover faster from Sandtomb.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Skilled Assault I",
-   "Trait": "Skilled Assault",
-   "Sigil Effect": "Boosts the power of damage skills.         Max Sigil Effect: T.Lvl 1, DMG dealt +10%"
- },
- {
-   "Name": "Skilled Assault II",
-   "Trait": "Skilled Assault",
-   "Sigil Effect": "Boosts the power of damage skills.         Max Sigil Effect: T.Lvl 3, DMG dealt +22%"
- },
- {
-   "Name": "Skilled Assault III",
-   "Trait": "Skilled Assault",
-   "Sigil Effect": "Boosts the power of damage skills.         Max Sigil Effect: T.Lvl 6, DMG dealt +35%"
- },
- {
-   "Name": "Skilled Assault IV",
-   "Trait": "Skilled Assault",
-   "Sigil Effect": "Boosts the power of damage skills.         Max Sigil Effect: T.Lvl 10, DMG dealt +50%"
- },
- {
-   "Name": "Skilled Assault V",
-   "Trait": "Skilled Assault",
-   "Sigil Effect": "Boosts the power of damage skills.         Max Sigil Effect: T.Lvl 15, DMG dealt +70%"
- },
- {
-   "Name": "Slow Resistance I",
-   "Trait": "Slow Resistance",
-   "Sigil Effect": "Recover faster from Slow.         Max Sigil Effect: T.Lvl 1, Effect duration -10%"
- },
- {
-   "Name": "Slow Resistance II",
-   "Trait": "Slow Resistance",
-   "Sigil Effect": "Recover faster from Slow.         Max Sigil Effect: T.Lvl 3, Effect duration -22%"
- },
- {
-   "Name": "Slow Resistance III",
-   "Trait": "Slow Resistance",
-   "Sigil Effect": "Recover faster from Slow.         Max Sigil Effect: T.Lvl 6, Effect duration -35%"
- },
- {
-   "Name": "Slow Resistance IV",
-   "Trait": "Slow Resistance",
-   "Sigil Effect": "Recover faster from Slow.         Max Sigil Effect: T.Lvl 10, Effect duration -50%"
- },
- {
-   "Name": "Slow Resistance V",
-   "Trait": "Slow Resistance",
-   "Sigil Effect": "Recover faster from Slow.         Max Sigil Effect: T.Lvl 15, Effect duration -70%"
- },
- {
-   "Name": "Stamina I",
-   "Trait": "Stamina",
-   "Sigil Effect": "Boosts attack based on how high your health is.                    Max Sigil Effect: T.Lvl 1, Boosts ATK by a max of +8% (At 100% HP)\nBoosts           ATK by at least 1.2% (At 25% HP)"
- },
- {
-   "Name": "Stamina II",
-   "Trait": "Stamina",
-   "Sigil Effect": "Boosts attack based on how high your health is.                    Max Sigil Effect: T.Lvl 3, Boosts ATK by a max of +14% (At 100% HP)\nBoosts           ATK by at least 2.1% (At 25% HP)"
- },
- {
-   "Name": "Stamina III",
-   "Trait": "Stamina",
-   "Sigil Effect": "Boosts attack based on how high your health is.                    Max Sigil Effect: T.Lvl 6, Boosts ATK by a max of +23% (At 100% HP)\nBoosts           ATK by at least 3.4% (At 25% HP)"
- },
- {
-   "Name": "Stamina IV",
-   "Trait": "Stamina",
-   "Sigil Effect": "Boosts attack based on how high your health is.                    Max Sigil Effect: T.Lvl 10, Boosts ATK by a max of +35% (At 100%           HP)\nBoosts ATK by at least 5.2% (At 25% HP)"
- },
- {
-   "Name": "Stamina V",
-   "Trait": "Stamina",
-   "Sigil Effect": "Boosts attack based on how high your health is.                    Max Sigil Effect: T.Lvl 15, Boosts ATK by a max of +50% (At 100%           HP)\nBoosts ATK by at least 7.5% (At 25% HP)"
- },
- {
-   "Name": "Steady Focus I",
-   "Trait": "Steady Focus",
-   "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging           attacks.                  Max Sigil Effect: T.Lvl 1, DEF +6%\nGrants Stout Heart"
- },
- {
-   "Name": "Steady Focus II",
-   "Trait": "Steady Focus",
-   "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging           attacks.                  Max Sigil Effect: T.Lvl 3, DEF +8%\nGrants Stout Heart"
- },
- {
-   "Name": "Steady Focus III",
-   "Trait": "Steady Focus",
-   "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging           attacks.                  Max Sigil Effect: T.Lvl 6, DEF +11%\nGrants Stout Heart"
- },
- {
-   "Name": "Steady Focus IV",
-   "Trait": "Steady Focus",
-   "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging           attacks.                  Max Sigil Effect: T.Lvl 10, DEF +15%\nGrants Stout Heart"
- },
- {
-   "Name": "Steady Focus V",
-   "Trait": "Steady Focus",
-   "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging           attacks.                  Max Sigil Effect: T.Lvl 15, DEF +20%\nGrants Stout Heart"
- },
- {
-   "Name": "Steel Nerves I",
-   "Trait": "Steel Nerves",
-   "Sigil Effect": "Take less damage while Stout Heart is active.         Max Sigil Effect: T.Lvl 1, DMG taken -1%"
- },
- {
-   "Name": "Steel Nerves II",
-   "Trait": "Steel Nerves",
-   "Sigil Effect": "Take less damage while Stout Heart is active.         Max Sigil Effect: T.Lvl 3, DMG taken -3%"
- },
- {
-   "Name": "Steel Nerves III",
-   "Trait": "Steel Nerves",
-   "Sigil Effect": "Take less damage while Stout Heart is active.         Max Sigil Effect: T.Lvl 6, DMG taken -6%"
- },
- {
-   "Name": "Steel Nerves IV",
-   "Trait": "Steel Nerves",
-   "Sigil Effect": "Take less damage while Stout Heart is active.         Max Sigil Effect: T.Lvl 10, DMG taken -10%"
- },
- {
-   "Name": "Steel Nerves V",
-   "Trait": "Steel Nerves",
-   "Sigil Effect": "Take less damage while Stout Heart is active.         Max Sigil Effect: T.Lvl 15, DMG taken -15%"
- },
- {
-   "Name": "Stout Heart",
-   "Trait": "Stout Heart",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Stun Power I",
-   "Trait": "Stun Power",
-   "Sigil Effect": "Boosts stun power.         Max Sigil Effect: T.Lvl 1, Stun power +5"
- },
- {
-   "Name": "Stun Power II",
-   "Trait": "Stun Power",
-   "Sigil Effect": "Boosts stun power.         Max Sigil Effect: T.Lvl 3, Stun power +10"
- },
- {
-   "Name": "Stun Power III",
-   "Trait": "Stun Power",
-   "Sigil Effect": "Boosts stun power.         Max Sigil Effect: T.Lvl 6, Stun power +26"
- },
- {
-   "Name": "Stun Power IV",
-   "Trait": "Stun Power",
-   "Sigil Effect": "Boosts stun power.         Max Sigil Effect: T.Lvl 10, Stun power +38"
- },
- {
-   "Name": "Stun Power V",
-   "Trait": "Stun Power",
-   "Sigil Effect": "Boosts stun power.         Max Sigil Effect: T.Lvl 15, Stun power +50"
- },
- {
-   "Name": "Swordmaster's Prowess",
-   "Trait": "Swordmaster's Prowess",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "Throw I",
-   "Trait": "Throw DMG",
-   "Sigil Effect": "Boosts damage of thrown objects.         Max Sigil Effect: T.Lvl 1, DMG dealt +10%"
- },
- {
-   "Name": "Throw II",
-   "Trait": "Throw DMG",
-   "Sigil Effect": "Boosts damage of thrown objects.         Max Sigil Effect: T.Lvl 3, DMG dealt +22%"
- },
- {
-   "Name": "Throw III",
-   "Trait": "Throw DMG",
-   "Sigil Effect": "Boosts damage of thrown objects.         Max Sigil Effect: T.Lvl 6, DMG dealt +35%"
- },
- {
-   "Name": "Throw IV",
-   "Trait": "Throw DMG",
-   "Sigil Effect": "Boosts damage of thrown objects.         Max Sigil Effect: T.Lvl 10, DMG dealt +50%"
- },
- {
-   "Name": "Throw V",
-   "Trait": "Throw DMG",
-   "Sigil Effect": "Boosts damage of thrown objects.         Max Sigil Effect: T.Lvl 15, DMG dealt +70%"
- },
- {
-   "Name": "Tyranny I",
-   "Trait": "Tyranny",
-   "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.         Max Sigil Effect: T.Lvl 1, ATK +5%\nMax HP -20%"
- },
- {
-   "Name": "Tyranny II",
-   "Trait": "Tyranny",
-   "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.         Max Sigil Effect: T.Lvl 3, ATK +11%\nMax HP -20%"
- },
- {
-   "Name": "Tyranny III",
-   "Trait": "Tyranny",
-   "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.         Max Sigil Effect: T.Lvl 6, ATK +17%\nMax HP -20%"
- },
- {
-   "Name": "Tyranny IV",
-   "Trait": "Tyranny",
-   "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.         Max Sigil Effect: T.Lvl 10, ATK +25%\nMax HP -20%"
- },
- {
-   "Name": "Tyranny V",
-   "Trait": "Tyranny",
-   "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.         Max Sigil Effect: T.Lvl 15, ATK +35%\nMax HP -20%"
- },
- {
-   "Name": "Uplift I",
-   "Trait": "Uplift",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge.         Max Sigil Effect: T.Lvl 1, SBA gauge gain +5%"
- },
- {
-   "Name": "Uplift II",
-   "Trait": "Uplift",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge.         Max Sigil Effect: T.Lvl 3, SBA gauge gain +5%"
- },
- {
-   "Name": "Uplift III",
-   "Trait": "Uplift",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge.         Max Sigil Effect: T.Lvl 6, SBA gauge gain +7.5%"
- },
- {
-   "Name": "Uplift IV",
-   "Trait": "Uplift",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge.         Max Sigil Effect: T.Lvl 10, SBA gauge gain +9.5%"
- },
- {
-   "Name": "Uplift V",
-   "Trait": "Uplift",
-   "Sigil Effect": "Boosts the charge speed of your SBA gauge.         Max Sigil Effect: T.Lvl 15, SBA gauge gain +12%"
- },
- {
-   "Name": "Veteran's Insight",
-   "Trait": "Veteran's Insight",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- },
- {
-   "Name": "White Dragon's Oath",
-   "Trait": "White Dragon's Oath",
-   "Sigil Effect": "Max Sigil Effect: T.Lvl 15,"
- }
+  {
+    "Name": "Aegis I",
+    "Trait": "Aegis",
+    "Sigil Effect": "Raises maximum health as a proportion of your current maximum health",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Aegis II",
+    "Trait": "Aegis",
+    "Sigil Effect": "Raises maximum health as a proportion of your current maximum health",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Aegis III",
+    "Trait": "Aegis",
+    "Sigil Effect": "Raises maximum health as a proportion of your current maximum health",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Aegis IV",
+    "Trait": "Aegis",
+    "Sigil Effect": "Raises maximum health as a proportion of your current maximum health",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Aegis V",
+    "Trait": "Aegis",
+    "Sigil Effect": "Raises maximum health as a proportion of your current maximum health",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Attack Down Resistance I",
+    "Trait": "ATK↓ Resistance",
+    "Sigil Effect": "Recover faster from ATK",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Attack Down Resistance II",
+    "Trait": "ATK↓ Resistance",
+    "Sigil Effect": "Recover faster from ATK",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Attack Down Resistance III",
+    "Trait": "ATK↓ Resistance",
+    "Sigil Effect": "Recover faster from ATK",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Attack Down Resistance IV",
+    "Trait": "ATK↓ Resistance",
+    "Sigil Effect": "Recover faster from ATK",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Attack Down Resistance V",
+    "Trait": "ATK↓ Resistance",
+    "Sigil Effect": "Recover faster from ATK",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Attack Power I",
+    "Trait": "ATK",
+    "Sigil Effect": "Boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Attack Power II",
+    "Trait": "ATK",
+    "Sigil Effect": "Boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Attack Power III",
+    "Trait": "ATK",
+    "Sigil Effect": "Boosts attack power.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Attack Power IV",
+    "Trait": "ATK",
+    "Sigil Effect": "Boosts attack power.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Attack Power V",
+    "Trait": "ATK",
+    "Sigil Effect": "Boosts attack power.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Autorevive I",
+    "Trait": "Autorevive",
+    "Sigil Effect": "Automatically recover from critical condition. Reactivation time is shortened based on trait level.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Autorevive II",
+    "Trait": "Autorevive",
+    "Sigil Effect": "Automatically recover from critical condition. Reactivation time is shortened based on trait level.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Autorevive III",
+    "Trait": "Autorevive",
+    "Sigil Effect": "Automatically recover from critical condition. Reactivation time is shortened based on trait level.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Autorevive IV",
+    "Trait": "Autorevive",
+    "Sigil Effect": "Automatically recover from critical condition. Reactivation time is shortened based on trait level.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Autorevive V",
+    "Trait": "Autorevive",
+    "Sigil Effect": "Automatically recover from critical condition. Reactivation time is shortened based on trait level.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Blight Resistance I",
+    "Trait": "Blight Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Blight.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Blight Resistance II",
+    "Trait": "Blight Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Blight.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Blight Resistance III",
+    "Trait": "Blight Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Blight.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Blight Resistance IV",
+    "Trait": "Blight Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Blight.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Blight Resistance V",
+    "Trait": "Blight Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Blight.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Break Assassin I",
+    "Trait": "Break Assassin",
+    "Sigil Effect": "Deal more damage to foes in Break.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Break Assassin II",
+    "Trait": "Break Assassin",
+    "Sigil Effect": "Deal more damage to foes in Break.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Break Assassin III",
+    "Trait": "Break Assassin",
+    "Sigil Effect": "Deal more damage to foes in Break.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Break Assassin IV",
+    "Trait": "Break Assassin",
+    "Sigil Effect": "Deal more damage to foes in Break.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Break Assassin V",
+    "Trait": "Break Assassin",
+    "Sigil Effect": "Deal more damage to foes in Break.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Burn Resistance I",
+    "Trait": "Burn Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Burn.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Burn Resistance II",
+    "Trait": "Burn Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Burn.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Burn Resistance III",
+    "Trait": "Burn Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Burn.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Burn Resistance IV",
+    "Trait": "Burn Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Burn.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Burn Resistance V",
+    "Trait": "Burn Resistance",
+    "Sigil Effect": "Reduces the amount of damage inflicted by Burn.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Butterfly's Grace",
+    "Trait": "Butterfly's Grace",
+    "Sigil Effect": "Grants more butterflies to Narmaya whenever she lands a combo finisher or link attack."
+  },
+  {
+    "Name": "Cascade I",
+    "Trait": "Cascade",
+    "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength changes based on the attack type.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Cascade II",
+    "Trait": "Cascade",
+    "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength changes based on the attack type.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Cascade III",
+    "Trait": "Cascade",
+    "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength changes based on the attack type.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Cascade IV",
+    "Trait": "Cascade",
+    "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength changes based on the attack type.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Cascade V",
+    "Trait": "Cascade",
+    "Sigil Effect": "Shortens skill cooldowns whenever you hit a foe. Effect strength changes based on the attack type.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Charged Attack I",
+    "Trait": "Charged Attack DMG",
+    "Sigil Effect": "Boosts the power of charged attacks.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Charged Attack II",
+    "Trait": "Charged Attack DMG",
+    "Sigil Effect": "Boosts the power of charged attacks.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Charged Attack III",
+    "Trait": "Charged Attack DMG",
+    "Sigil Effect": "Boosts the power of charged attacks.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Charged Attack IV",
+    "Trait": "Charged Attack DMG",
+    "Sigil Effect": "Boosts the power of charged attacks.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Charged Attack V",
+    "Trait": "Charged Attack DMG",
+    "Sigil Effect": "Boosts the power of charged attacks.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Combo Booster I",
+    "Trait": "Combo Booster",
+    "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the next hit isn't made in time.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Combo Booster II",
+    "Trait": "Combo Booster",
+    "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the next hit isn't made in time.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Combo Booster III",
+    "Trait": "Combo Booster",
+    "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the next hit isn't made in time.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Combo Booster IV",
+    "Trait": "Combo Booster",
+    "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the next hit isn't made in time.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Combo Booster V",
+    "Trait": "Combo Booster",
+    "Sigil Effect": "Gradually boosts damage of each successive hit. Effect resets if the next hit isn't made in time.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Combo Finisher I",
+    "Trait": "Combo Finisher DMG",
+    "Sigil Effect": "Boosts the power of combo finishers.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Combo Finisher II",
+    "Trait": "Combo Finisher DMG",
+    "Sigil Effect": "Boosts the power of combo finishers.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Combo Finisher III",
+    "Trait": "Combo Finisher DMG",
+    "Sigil Effect": "Boosts the power of combo finishers.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Combo Finisher IV",
+    "Trait": "Combo Finisher DMG",
+    "Sigil Effect": "Boosts the power of combo finishers.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Combo Finisher V",
+    "Trait": "Combo Finisher DMG",
+    "Sigil Effect": "Boosts the power of combo finishers.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Concentrated Fire I",
+    "Trait": "Concentrated Fire",
+    "Sigil Effect": "Boosts the power of ranged attacks.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Concentrated Fire II",
+    "Trait": "Concentrated Fire",
+    "Sigil Effect": "Boosts the power of ranged attacks.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Concentrated Fire III",
+    "Trait": "Concentrated Fire",
+    "Sigil Effect": "Boosts the power of ranged attacks.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Concentrated Fire IV",
+    "Trait": "Concentrated Fire",
+    "Sigil Effect": "Boosts the power of ranged attacks.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Concentrated Fire V",
+    "Trait": "Concentrated Fire",
+    "Sigil Effect": "Boosts the power of ranged attacks.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Crabby Resonance",
+    "Trait": "Crabby Resonance",
+    "Sigil Effect": "Raises trait level based on wee pincers rescued. You then gain the associated effect. Can't be sold or traded for vouchers."
+  },
+  {
+    "Name": "Critical Damage I",
+    "Trait": "Critical Hit DMG",
+    "Sigil Effect": "Boosts damage dealt by critical hits.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Critical Damage II",
+    "Trait": "Critical Hit DMG",
+    "Sigil Effect": "Boosts damage dealt by critical hits.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Critical Damage III",
+    "Trait": "Critical Hit DMG",
+    "Sigil Effect": "Boosts damage dealt by critical hits.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Critical Damage IV",
+    "Trait": "Critical Hit DMG",
+    "Sigil Effect": "Boosts damage dealt by critical hits.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Critical Damage V",
+    "Trait": "Critical Hit DMG",
+    "Sigil Effect": "Boosts damage dealt by critical hits.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Critical Hit Rate I",
+    "Trait": "Critical Hit Rate",
+    "Sigil Effect": "Boosts critical hit rate.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Critical Hit Rate II",
+    "Trait": "Critical Hit Rate",
+    "Sigil Effect": "Boosts critical hit rate.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Critical Hit Rate III",
+    "Trait": "Critical Hit Rate",
+    "Sigil Effect": "Boosts critical hit rate.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Critical Hit Rate IV",
+    "Trait": "Critical Hit Rate",
+    "Sigil Effect": "Boosts critical hit rate.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Critical Hit Rate V",
+    "Trait": "Critical Hit Rate",
+    "Sigil Effect": "Boosts critical hit rate.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Damage Cap I",
+    "Trait": "DMG Cap",
+    "Sigil Effect": "Raises the damage limit of attacks.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Damage Cap II",
+    "Trait": "DMG Cap",
+    "Sigil Effect": "Raises the damage limit of attacks.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Damage Cap III",
+    "Trait": "DMG Cap",
+    "Sigil Effect": "Raises the damage limit of attacks.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Damage Cap IV",
+    "Trait": "DMG Cap",
+    "Sigil Effect": "Raises the damage limit of attacks.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Damage Cap V",
+    "Trait": "DMG Cap",
+    "Sigil Effect": "Raises the damage limit of attacks.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Darkflame Resistance I",
+    "Trait": "Darkflame Resistance",
+    "Sigil Effect": "Recover faster from Darkflame.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Darkflame Resistance II",
+    "Trait": "Darkflame Resistance",
+    "Sigil Effect": "Recover faster from Darkflame.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Darkflame Resistance III",
+    "Trait": "Darkflame Resistance",
+    "Sigil Effect": "Recover faster from Darkflame.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Darkflame Resistance IV",
+    "Trait": "Darkflame Resistance",
+    "Sigil Effect": "Recover faster from Darkflame.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Darkflame Resistance V",
+    "Trait": "Darkflame Resistance",
+    "Sigil Effect": "Recover faster from Darkflame.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Defense Down Resistance I",
+    "Trait": "DEF↓ Resistance",
+    "Sigil Effect": "Recover faster from DEF↓.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Defense Down Resistance II",
+    "Trait": "DEF↓ Resistance",
+    "Sigil Effect": "Recover faster from DEF↓.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Defense Down Resistance III",
+    "Trait": "DEF↓ Resistance",
+    "Sigil Effect": "Recover faster from DEF↓.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Defense Down Resistance IV",
+    "Trait": "DEF↓ Resistance",
+    "Sigil Effect": "Recover faster from DEF↓.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Defense Down Resistance V",
+    "Trait": "DEF↓ Resistance",
+    "Sigil Effect": "Recover faster from DEF↓.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Dizzy Resistance I",
+    "Trait": "Dizzy Resistance",
+    "Sigil Effect": "Recover faster from Dizzy.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Dizzy Resistance II",
+    "Trait": "Dizzy Resistance",
+    "Sigil Effect": "Recover faster from Dizzy.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Dizzy Resistance III",
+    "Trait": "Dizzy Resistance",
+    "Sigil Effect": "Recover faster from Dizzy.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Dizzy Resistance IV",
+    "Trait": "Dizzy Resistance",
+    "Sigil Effect": "Recover faster from Dizzy.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Dizzy Resistance V",
+    "Trait": "Dizzy Resistance",
+    "Sigil Effect": "Recover faster from Dizzy.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Dodge Payback I",
+    "Trait": "Dodge Payback",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Dodge Payback II",
+    "Trait": "Dodge Payback",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Dodge Payback III",
+    "Trait": "Dodge Payback",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts attack power.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Dodge Payback IV",
+    "Trait": "Dodge Payback",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts attack power.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Dodge Payback V",
+    "Trait": "Dodge Payback",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge and temporarily boosts attack power.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Dragonslayer's Dominance",
+    "Trait": "Dragonslayer's Dominance",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Drain I",
+    "Trait": "Drain",
+    "Sigil Effect": "Recover health based on the damage dealt to a foe.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Drain II",
+    "Trait": "Drain",
+    "Sigil Effect": "Recover health based on the damage dealt to a foe.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Drain III",
+    "Trait": "Drain",
+    "Sigil Effect": "Recover health based on the damage dealt to a foe.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Drain IV",
+    "Trait": "Drain",
+    "Sigil Effect": "Recover health based on the damage dealt to a foe.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Drain V",
+    "Trait": "Drain",
+    "Sigil Effect": "Recover health based on the damage dealt to a foe.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Ebony's Presence",
+    "Trait": "Ebony's Presence",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Enmity I",
+    "Trait": "Enmity",
+    "Sigil Effect": "Boosts attack based on how low your health is.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Enmity II",
+    "Trait": "Enmity",
+    "Sigil Effect": "Boosts attack based on how low your health is.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Enmity III",
+    "Trait": "Enmity",
+    "Sigil Effect": "Boosts attack based on how low your health is.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Enmity IV",
+    "Trait": "Enmity",
+    "Sigil Effect": "Boosts attack based on how low your health is.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Enmity V",
+    "Trait": "Enmity",
+    "Sigil Effect": "Boosts attack based on how low your health is.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Eternal Rage's Mettle",
+    "Trait": "Eternal Rage's Mettle",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Exploiter I",
+    "Trait": "Weak Point DMG",
+    "Sigil Effect": "Boosts damage against weak points and attacks from behind.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Exploiter II",
+    "Trait": "Weak Point DMG",
+    "Sigil Effect": "Boosts damage against weak points and attacks from behind.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Exploiter III",
+    "Trait": "Weak Point DMG",
+    "Sigil Effect": "Boosts damage against weak points and attacks from behind.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Exploiter IV",
+    "Trait": "Weak Point DMG",
+    "Sigil Effect": "Boosts damage against weak points and attacks from behind.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Exploiter V",
+    "Trait": "Weak Point DMG",
+    "Sigil Effect": "Boosts damage against weak points and attacks from behind.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Fast Learner I",
+    "Trait": "Fast Learner",
+    "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Fast Learner II",
+    "Trait": "Fast Learner",
+    "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Fast Learner III",
+    "Trait": "Fast Learner",
+    "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Fast Learner IV",
+    "Trait": "Fast Learner",
+    "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Fast Learner V",
+    "Trait": "Fast Learner",
+    "Sigil Effect": "Earn more experience points for defeating foes and clearing quests.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Fearless Drive",
+    "Trait": "Fearless Drive",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Firm Stance I",
+    "Trait": "Firm Stance",
+    "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Firm Stance II",
+    "Trait": "Firm Stance",
+    "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Firm Stance III",
+    "Trait": "Firm Stance",
+    "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Firm Stance IV",
+    "Trait": "Firm Stance",
+    "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Firm Stance V",
+    "Trait": "Firm Stance",
+    "Sigil Effect": "Reduces the effect of being pulled in or repelled by physical forces.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Founder's Strategy",
+    "Trait": "Founder's Strategy",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Garrison I",
+    "Trait": "Garrison",
+    "Sigil Effect": "Boosts defense based on how low your health is.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Garrison II",
+    "Trait": "Garrison",
+    "Sigil Effect": "Boosts defense based on how low your health is.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Garrison III",
+    "Trait": "Garrison",
+    "Sigil Effect": "Boosts defense based on how low your health is.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Garrison IV",
+    "Trait": "Garrison",
+    "Sigil Effect": "Boosts defense based on how low your health is.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Garrison V",
+    "Trait": "Garrison",
+    "Sigil Effect": "Boosts defense based on how low your health is.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Glaciate Resistance I",
+    "Trait": "Glaciate Resistance",
+    "Sigil Effect": "Recover faster from Frostbite and Glaciate.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Glaciate Resistance II",
+    "Trait": "Glaciate Resistance",
+    "Sigil Effect": "Recover faster from Frostbite and Glaciate.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Glaciate Resistance III",
+    "Trait": "Glaciate Resistance",
+    "Sigil Effect": "Recover faster from Frostbite and Glaciate.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Glaciate Resistance IV",
+    "Trait": "Glaciate Resistance",
+    "Sigil Effect": "Recover faster from Frostbite and Glaciate.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Glaciate Resistance V",
+    "Trait": "Glaciate Resistance",
+    "Sigil Effect": "Recover faster from Frostbite and Glaciate.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Guard Payback I",
+    "Trait": "Guard Payback",
+    "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and temporarily boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Guard Payback II",
+    "Trait": "Guard Payback",
+    "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and temporarily boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Guard Payback III",
+    "Trait": "Guard Payback",
+    "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and temporarily boosts attack power.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Guard Payback IV",
+    "Trait": "Guard Payback",
+    "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and temporarily boosts attack power.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Guard Payback V",
+    "Trait": "Guard Payback",
+    "Sigil Effect": "Boosts the amount of stun dealt back at foes after a perfect guard and temporarily boosts attack power.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Guardian's Conviction",
+    "Trait": "Guardian's Conviction",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Guts I",
+    "Trait": "Guts",
+    "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based on trait level.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Guts II",
+    "Trait": "Guts",
+    "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based on trait level.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Guts III",
+    "Trait": "Guts",
+    "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based on trait level.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Guts IV",
+    "Trait": "Guts",
+    "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based on trait level.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Guts V",
+    "Trait": "Guts",
+    "Sigil Effect": "Survive a lethal hit with 1 HP. Reactivation time is shortened based on trait level.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Health I",
+    "Trait": "HP",
+    "Sigil Effect": "Boosts base health.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Health II",
+    "Trait": "HP",
+    "Sigil Effect": "Boosts base health.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Health III",
+    "Trait": "HP",
+    "Sigil Effect": "Boosts base health.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Health IV",
+    "Trait": "HP",
+    "Sigil Effect": "Boosts base health.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Health V",
+    "Trait": "HP",
+    "Sigil Effect": "Boosts base health.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Held Under Resistance I",
+    "Trait": "Held Under Resistance",
+    "Sigil Effect": "Recover faster from Held Under.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Held Under Resistance II",
+    "Trait": "Held Under Resistance",
+    "Sigil Effect": "Recover faster from Held Under.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Held Under Resistance III",
+    "Trait": "Held Under Resistance",
+    "Sigil Effect": "Recover faster from Held Under.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Held Under Resistance IV",
+    "Trait": "Held Under Resistance",
+    "Sigil Effect": "Recover faster from Held Under.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Held Under Resistance V",
+    "Trait": "Held Under Resistance",
+    "Sigil Effect": "Recover faster from Held Under.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Helmsman's Navigation",
+    "Trait": "Helmsman's Navigation",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Hero's Creed",
+    "Trait": "Hero's Creed",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Holy Knight's Luster",
+    "Trait": "Holy Knight's Luster",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Improved Dodge",
+    "Trait": "Improved Dodge",
+    "Sigil Effect": "Extends the window for foe attacks to miss during a dodge. Allows you to perform more dodges in a row."
+  },
+  {
+    "Name": "Improved Guard I",
+    "Trait": "Improved Guard",
+    "Sigil Effect": "Makes your guard harder to break.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Improved Guard II",
+    "Trait": "Improved Guard",
+    "Sigil Effect": "Makes your guard harder to break.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Improved Guard III",
+    "Trait": "Improved Guard",
+    "Sigil Effect": "Makes your guard harder to break.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Improved Guard IV",
+    "Trait": "Improved Guard",
+    "Sigil Effect": "Makes your guard harder to break.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Improved Guard V",
+    "Trait": "Improved Guard",
+    "Sigil Effect": "Makes your guard harder to break.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Improved Healing I",
+    "Trait": "Improved Healing",
+    "Sigil Effect": "Raises the healing cap and healing amount of healing skills.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Improved Healing II",
+    "Trait": "Improved Healing",
+    "Sigil Effect": "Raises the healing cap and healing amount of healing skills.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Improved Healing III",
+    "Trait": "Improved Healing",
+    "Sigil Effect": "Raises the healing cap and healing amount of healing skills.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Improved Healing IV",
+    "Trait": "Improved Healing",
+    "Sigil Effect": "Raises the healing cap and healing amount of healing skills.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Improved Healing V",
+    "Trait": "Improved Healing",
+    "Sigil Effect": "Raises the healing cap and healing amount of healing skills.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Injury to Insult I",
+    "Trait": "Injury to Insult",
+    "Sigil Effect": "Deal more damage to foes inflicted with status ailments.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Injury to Insult II",
+    "Trait": "Injury to Insult",
+    "Sigil Effect": "Deal more damage to foes inflicted with status ailments.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Injury to Insult III",
+    "Trait": "Injury to Insult",
+    "Sigil Effect": "Deal more damage to foes inflicted with status ailments.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Injury to Insult IV",
+    "Trait": "Injury to Insult",
+    "Sigil Effect": "Deal more damage to foes inflicted with status ailments.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Injury to Insult V",
+    "Trait": "Injury to Insult",
+    "Sigil Effect": "Deal more damage to foes inflicted with status ailments.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Life on the Line I",
+    "Trait": "Life on the Line",
+    "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your health.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Life on the Line II",
+    "Trait": "Life on the Line",
+    "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your health.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Life on the Line III",
+    "Trait": "Life on the Line",
+    "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your health.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Life on the Line IV",
+    "Trait": "Life on the Line",
+    "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your health.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Life on the Line V",
+    "Trait": "Life on the Line",
+    "Sigil Effect": "Boosts your attack power, but healing from allies won't restore your health.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Linked Together I",
+    "Trait": "Linked Together",
+    "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the amount of link level gained.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Linked Together II",
+    "Trait": "Linked Together",
+    "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the amount of link level gained.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Linked Together III",
+    "Trait": "Linked Together",
+    "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the amount of link level gained.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Linked Together IV",
+    "Trait": "Linked Together",
+    "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the amount of link level gained.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Linked Together V",
+    "Trait": "Linked Together",
+    "Sigil Effect": "Boosts link attacks, Skybound Arts, and chain bursts. Also boosts the amount of link level gained.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Lord's Procession",
+    "Trait": "Lord's Procession",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Low Profile I",
+    "Trait": "Low Profile",
+    "Sigil Effect": "Foes are less likely to target you.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Low Profile II",
+    "Trait": "Low Profile",
+    "Sigil Effect": "Foes are less likely to target you.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Low Profile III",
+    "Trait": "Low Profile",
+    "Sigil Effect": "Foes are less likely to target you.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Low Profile IV",
+    "Trait": "Low Profile",
+    "Sigil Effect": "Foes are less likely to target you.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Low Profile V",
+    "Trait": "Low Profile",
+    "Sigil Effect": "Foes are less likely to target you.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Lucky Charge I",
+    "Trait": "Lucky Charge",
+    "Sigil Effect": "Boosts the critical hit of charged attacks.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Lucky Charge II",
+    "Trait": "Lucky Charge",
+    "Sigil Effect": "Boosts the critical hit of charged attacks.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Lucky Charge III",
+    "Trait": "Lucky Charge",
+    "Sigil Effect": "Boosts the critical hit of charged attacks.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Lucky Charge IV",
+    "Trait": "Lucky Charge",
+    "Sigil Effect": "Boosts the critical hit of charged attacks.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Lucky Charge V",
+    "Trait": "Lucky Charge",
+    "Sigil Effect": "Boosts the critical hit of charged attacks.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Mage's Aspiration",
+    "Trait": "Mage's Aspiration",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Nimble Defense I",
+    "Trait": "Nimble Defense",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts defense and restores a small bit of health.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Nimble Defense II",
+    "Trait": "Nimble Defense",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts defense and restores a small bit of health.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Nimble Defense III",
+    "Trait": "Nimble Defense",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts defense and restores a small bit of health.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Nimble Defense IV",
+    "Trait": "Nimble Defense",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts defense and restores a small bit of health.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Nimble Defense V",
+    "Trait": "Nimble Defense",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Temporarily boosts defense and restores a small bit of health.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Nimble Onslaught I",
+    "Trait": "Nimble Onslaught",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed of your SBA gauge and shortens skill cooldowns.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Nimble Onslaught II",
+    "Trait": "Nimble Onslaught",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed of your SBA gauge and shortens skill cooldowns.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Nimble Onslaught III",
+    "Trait": "Nimble Onslaught",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed of your SBA gauge and shortens skill cooldowns.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Nimble Onslaught IV",
+    "Trait": "Nimble Onslaught",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed of your SBA gauge and shortens skill cooldowns.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Nimble Onslaught V",
+    "Trait": "Nimble Onslaught",
+    "Sigil Effect": "Extends Invincibility after a perfect dodge. Boosts the charge speed of your SBA gauge and shortens skill cooldowns.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Overdrive Assassin I",
+    "Trait": "Overdrive Assassin",
+    "Sigil Effect": "Deal more damage to foes in Overdrive.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Overdrive Assassin II",
+    "Trait": "Overdrive Assassin",
+    "Sigil Effect": "Deal more damage to foes in Overdrive.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Overdrive Assassin III",
+    "Trait": "Overdrive Assassin",
+    "Sigil Effect": "Deal more damage to foes in Overdrive.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Overdrive Assassin IV",
+    "Trait": "Overdrive Assassin",
+    "Sigil Effect": "Deal more damage to foes in Overdrive.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Overdrive Assassin V",
+    "Trait": "Overdrive Assassin",
+    "Sigil Effect": "Deal more damage to foes in Overdrive.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Paralysis Resistance I",
+    "Trait": "Paralysis Resistance",
+    "Sigil Effect": "Recover faster from Paralysis.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Paralysis Resistance II",
+    "Trait": "Paralysis Resistance",
+    "Sigil Effect": "Recover faster from Paralysis.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Paralysis Resistance III",
+    "Trait": "Paralysis Resistance",
+    "Sigil Effect": "Recover faster from Paralysis.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Paralysis Resistance IV",
+    "Trait": "Paralysis Resistance",
+    "Sigil Effect": "Recover faster from Paralysis.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Paralysis Resistance V",
+    "Trait": "Paralysis Resistance",
+    "Sigil Effect": "Recover faster from Paralysis.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Path to Mastery I",
+    "Trait": "Path to Mastery",
+    "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply to online players in your party.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Path to Mastery II",
+    "Trait": "Path to Mastery",
+    "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply to online players in your party.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Path to Mastery III",
+    "Trait": "Path to Mastery",
+    "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply to online players in your party.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Path to Mastery IV",
+    "Trait": "Path to Mastery",
+    "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply to online players in your party.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Path to Mastery V",
+    "Trait": "Path to Mastery",
+    "Sigil Effect": "Boosts the amount of mastery points earned. The effect doesn't apply to online players in your party.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Phantasm's Concord",
+    "Trait": "Phantasm's Concord",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Potion Hoarder I",
+    "Trait": "Potion Hoarder",
+    "Sigil Effect": "Increases the stock of recovery items.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Potion Hoarder II",
+    "Trait": "Potion Hoarder",
+    "Sigil Effect": "Increases the stock of recovery items.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Potion Hoarder III",
+    "Trait": "Potion Hoarder",
+    "Sigil Effect": "Increases the stock of recovery items.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Potion Hoarder IV",
+    "Trait": "Potion Hoarder",
+    "Sigil Effect": "Increases the stock of recovery items.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Potion Hoarder V",
+    "Trait": "Potion Hoarder",
+    "Sigil Effect": "Increases the stock of recovery items.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Precise Resilience I",
+    "Trait": "Precise Resilience",
+    "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a perfect guard.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Precise Resilience II",
+    "Trait": "Precise Resilience",
+    "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a perfect guard.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Precise Resilience III",
+    "Trait": "Precise Resilience",
+    "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a perfect guard.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Precise Resilience IV",
+    "Trait": "Precise Resilience",
+    "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a perfect guard.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Precise Resilience V",
+    "Trait": "Precise Resilience",
+    "Sigil Effect": "Temporarily boosts defense and restores a small bit of health after a perfect guard.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Precise Wrath I",
+    "Trait": "Precise Wrath",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns after a perfect guard.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Precise Wrath II",
+    "Trait": "Precise Wrath",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns after a perfect guard.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Precise Wrath III",
+    "Trait": "Precise Wrath",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns after a perfect guard.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Precise Wrath IV",
+    "Trait": "Precise Wrath",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns after a perfect guard.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Precise Wrath V",
+    "Trait": "Precise Wrath",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge and shortens skill cooldowns after a perfect guard.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Provoke I",
+    "Trait": "Provoke",
+    "Sigil Effect": "Foes are more likely to target you.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Provoke II",
+    "Trait": "Provoke",
+    "Sigil Effect": "Foes are more likely to target you.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Provoke III",
+    "Trait": "Provoke",
+    "Sigil Effect": "Foes are more likely to target you.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Provoke IV",
+    "Trait": "Provoke",
+    "Sigil Effect": "Foes are more likely to target you.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Provoke V",
+    "Trait": "Provoke",
+    "Sigil Effect": "Foes are more likely to target you.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Quick Charge I",
+    "Trait": "Quick Charge",
+    "Sigil Effect": "Charged attacks charge faster. Boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Quick Charge II",
+    "Trait": "Quick Charge",
+    "Sigil Effect": "Charged attacks charge faster. Boosts attack power.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Quick Charge III",
+    "Trait": "Quick Charge",
+    "Sigil Effect": "Charged attacks charge faster. Boosts attack power.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Quick Charge IV",
+    "Trait": "Quick Charge",
+    "Sigil Effect": "Charged attacks charge faster. Boosts attack power.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Quick Charge V",
+    "Trait": "Quick Charge",
+    "Sigil Effect": "Charged attacks charge faster. Boosts attack power.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Quick Cooldown I",
+    "Trait": "Quick Cooldown",
+    "Sigil Effect": "Shortens skill cooldowns.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Quick Cooldown II",
+    "Trait": "Quick Cooldown",
+    "Sigil Effect": "Shortens skill cooldowns.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Quick Cooldown III",
+    "Trait": "Quick Cooldown",
+    "Sigil Effect": "Shortens skill cooldowns.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Quick Cooldown IV",
+    "Trait": "Quick Cooldown",
+    "Sigil Effect": "Shortens skill cooldowns.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Quick Cooldown V",
+    "Trait": "Quick Cooldown",
+    "Sigil Effect": "Shortens skill cooldowns.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Regen I",
+    "Trait": "Regen",
+    "Sigil Effect": "Automatically recover health over time.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Regen II",
+    "Trait": "Regen",
+    "Sigil Effect": "Automatically recover health over time.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Regen III",
+    "Trait": "Regen",
+    "Sigil Effect": "Automatically recover health over time.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Regen IV",
+    "Trait": "Regen",
+    "Sigil Effect": "Automatically recover health over time.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Regen V",
+    "Trait": "Regen",
+    "Sigil Effect": "Automatically recover health over time.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Rose's Blooming",
+    "Trait": "Rose's Blooming",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Rupie Tycoon I",
+    "Trait": "Rupie Tycoon",
+    "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your party.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Rupie Tycoon II",
+    "Trait": "Rupie Tycoon",
+    "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your party.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Rupie Tycoon III",
+    "Trait": "Rupie Tycoon",
+    "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your party.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Rupie Tycoon IV",
+    "Trait": "Rupie Tycoon",
+    "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your party.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Rupie Tycoon V",
+    "Trait": "Rupie Tycoon",
+    "Sigil Effect": "Earn more rupies. The effect doesn't apply to online players in your party.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Sandtomb Resistance I",
+    "Trait": "Sandtomb Resistance",
+    "Sigil Effect": "Recover faster from Sandtomb.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Sandtomb Resistance II",
+    "Trait": "Sandtomb Resistance",
+    "Sigil Effect": "Recover faster from Sandtomb.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Sandtomb Resistance III",
+    "Trait": "Sandtomb Resistance",
+    "Sigil Effect": "Recover faster from Sandtomb.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Sandtomb Resistance IV",
+    "Trait": "Sandtomb Resistance",
+    "Sigil Effect": "Recover faster from Sandtomb.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Sandtomb Resistance V",
+    "Trait": "Sandtomb Resistance",
+    "Sigil Effect": "Recover faster from Sandtomb.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Skilled Assault I",
+    "Trait": "Skilled Assault",
+    "Sigil Effect": "Boosts the power of damage skills.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Skilled Assault II",
+    "Trait": "Skilled Assault",
+    "Sigil Effect": "Boosts the power of damage skills.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Skilled Assault III",
+    "Trait": "Skilled Assault",
+    "Sigil Effect": "Boosts the power of damage skills.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Skilled Assault IV",
+    "Trait": "Skilled Assault",
+    "Sigil Effect": "Boosts the power of damage skills.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Skilled Assault V",
+    "Trait": "Skilled Assault",
+    "Sigil Effect": "Boosts the power of damage skills.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Slow Resistance I",
+    "Trait": "Slow Resistance",
+    "Sigil Effect": "Recover faster from Slow.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Slow Resistance II",
+    "Trait": "Slow Resistance",
+    "Sigil Effect": "Recover faster from Slow.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Slow Resistance III",
+    "Trait": "Slow Resistance",
+    "Sigil Effect": "Recover faster from Slow.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Slow Resistance IV",
+    "Trait": "Slow Resistance",
+    "Sigil Effect": "Recover faster from Slow.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Slow Resistance V",
+    "Trait": "Slow Resistance",
+    "Sigil Effect": "Recover faster from Slow.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Stamina I",
+    "Trait": "Stamina",
+    "Sigil Effect": "Boosts attack based on how high your health is.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Stamina II",
+    "Trait": "Stamina",
+    "Sigil Effect": "Boosts attack based on how high your health is.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Stamina III",
+    "Trait": "Stamina",
+    "Sigil Effect": "Boosts attack based on how high your health is.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Stamina IV",
+    "Trait": "Stamina",
+    "Sigil Effect": "Boosts attack based on how high your health is.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Stamina V",
+    "Trait": "Stamina",
+    "Sigil Effect": "Boosts attack based on how high your health is.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Steady Focus I",
+    "Trait": "Steady Focus",
+    "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging attacks.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Steady Focus II",
+    "Trait": "Steady Focus",
+    "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging attacks.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Steady Focus III",
+    "Trait": "Steady Focus",
+    "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging attacks.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Steady Focus IV",
+    "Trait": "Steady Focus",
+    "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging attacks.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Steady Focus V",
+    "Trait": "Steady Focus",
+    "Sigil Effect": "Boosts defense and can't be interrupted by foe attacks while charging attacks.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Steel Nerves I",
+    "Trait": "Steel Nerves",
+    "Sigil Effect": "Take less damage while Stout Heart is active.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Steel Nerves II",
+    "Trait": "Steel Nerves",
+    "Sigil Effect": "Take less damage while Stout Heart is active.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Steel Nerves III",
+    "Trait": "Steel Nerves",
+    "Sigil Effect": "Take less damage while Stout Heart is active.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Steel Nerves IV",
+    "Trait": "Steel Nerves",
+    "Sigil Effect": "Take less damage while Stout Heart is active.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Steel Nerves V",
+    "Trait": "Steel Nerves",
+    "Sigil Effect": "Take less damage while Stout Heart is active.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Stout Heart",
+    "Trait": "Stout Heart",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Stun Power I",
+    "Trait": "Stun Power",
+    "Sigil Effect": "Boosts stun power.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Stun Power II",
+    "Trait": "Stun Power",
+    "Sigil Effect": "Boosts stun power.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Stun Power III",
+    "Trait": "Stun Power",
+    "Sigil Effect": "Boosts stun power.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Stun Power IV",
+    "Trait": "Stun Power",
+    "Sigil Effect": "Boosts stun power.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Stun Power V",
+    "Trait": "Stun Power",
+    "Sigil Effect": "Boosts stun power.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Swordmaster's Prowess",
+    "Trait": "Swordmaster's Prowess",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "Throw I",
+    "Trait": "Throw DMG",
+    "Sigil Effect": "Boosts damage of thrown objects.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Throw II",
+    "Trait": "Throw DMG",
+    "Sigil Effect": "Boosts damage of thrown objects.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Throw III",
+    "Trait": "Throw DMG",
+    "Sigil Effect": "Boosts damage of thrown objects.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Throw IV",
+    "Trait": "Throw DMG",
+    "Sigil Effect": "Boosts damage of thrown objects.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Throw V",
+    "Trait": "Throw DMG",
+    "Sigil Effect": "Boosts damage of thrown objects.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Tyranny I",
+    "Trait": "Tyranny",
+    "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Tyranny II",
+    "Trait": "Tyranny",
+    "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Tyranny III",
+    "Trait": "Tyranny",
+    "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Tyranny IV",
+    "Trait": "Tyranny",
+    "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Tyranny V",
+    "Trait": "Tyranny",
+    "Sigil Effect": "Reduces maximum base health in exchange for a boost to attack.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Uplift I",
+    "Trait": "Uplift",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge.",
+    "Base Level": 1,
+    "Max Level": 1
+  },
+  {
+    "Name": "Uplift II",
+    "Trait": "Uplift",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge.",
+    "Base Level": 1,
+    "Max Level": 3
+  },
+  {
+    "Name": "Uplift III",
+    "Trait": "Uplift",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge.",
+    "Base Level": 4,
+    "Max Level": 6
+  },
+  {
+    "Name": "Uplift IV",
+    "Trait": "Uplift",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge.",
+    "Base Level": 7,
+    "Max Level": 10
+  },
+  {
+    "Name": "Uplift V",
+    "Trait": "Uplift",
+    "Sigil Effect": "Boosts the charge speed of your SBA gauge.",
+    "Base Level": 11,
+    "Max Level": 15
+  },
+  {
+    "Name": "Veteran's Insight",
+    "Trait": "Veteran's Insight",
+    "Sigil Effect": ""
+  },
+  {
+    "Name": "White Dragon's Oath",
+    "Trait": "White Dragon's Oath",
+    "Sigil Effect": ""
+  }
 ]
