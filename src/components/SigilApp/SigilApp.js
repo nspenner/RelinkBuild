@@ -78,7 +78,6 @@ const SigilApp = () => {
       const trait = traits[traitName.name];
       trait.level = trait.level + traitName.value;
       if (trait.level <= 0) {
-        debugger;
         delete newTraits[traitName.name];
       } else if (trait.level <= trait.maxLevel) {
         trait.effect = trait.levels[trait.level - 1]["Effect"];
@@ -146,7 +145,6 @@ const SigilApp = () => {
   };
 
   const handleSelectSubTrait = (index, selectedTrait) => {
-    console.log(selectedTrait);
     const newSigils = [...sigils];
     // Remove old trait if subtrait changed
     if (
